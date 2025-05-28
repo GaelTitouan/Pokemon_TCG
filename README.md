@@ -74,7 +74,8 @@ Ce travail permet une **exploitation automatisée** et structurée des données 
 
 ## 👤 Auteur
 
-- **Titouan Le-Gall**
-- **Gaël Hellegouarch**
-- **Lukas Le Plaire**
 - **Thomas Defoulounoux** 
+- **Gaël Hellegouarch**
+- **Titouan Le Gall**
+- **Lukas Le Plaire**
+
