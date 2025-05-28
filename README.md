@@ -56,7 +56,7 @@ Le fichier CSV final contient les colonnes suivantes :
 
 # Data-Viz
 La Data vizualisation a été réaliser sur Rstudio, elle contient 4 pages : 
-  - Acceuil
+  - Accueil
   - Cartes
   - Decks
   - Statistiques
