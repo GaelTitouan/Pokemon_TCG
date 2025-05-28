@@ -12,7 +12,7 @@ Le script `pokemon_json_en_csv.py` lit des fichiers JSON du dossier "Output" con
 #### 📌 Pour exécuter :
 
 ```bash
-python data_collection/pokemon_json_en_csv.py
+python extraction de données/pokemon_json_en_csv.py # Adapté le chemin d'accès en fonction de ou vous avez mit le fichier .py
 ```
 
 !! Assurez-vous de modifier les chemins suivants dans le script :
@@ -39,7 +39,7 @@ Le script `liste_card_TCG.py` lit tous les fichiers `.json` contenant des cartes
 #### 📌 Pour exécuter :
 
 ```bash
-python data_collection/liste_card_TCG.py
+python extraction de données/liste_card_TCG.py # Adapté le chemin d'accès en fonction de ou vous avez mit le fichier .py
 ```
 
 !! Assurez-vous de modifier les chemins suivants dans le script si besoin :
