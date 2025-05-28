@@ -2,8 +2,8 @@ import os
 import json
 import csv
 
-input_folder = r'D:\DATA_SAE601\pokemon-tcg-pocket-card-database\cards\en'
-output_csv = r'H:\SAE_601\Pokemon_TCG\list_card_TCG.csv'
+input_folder = r'D:\DATA_SAE601\pokemon-tcg-pocket-card-database\cards\en' #git clone https://github.com/hugoburguete/pokemon-tcg-pocket-card-database
+output_csv = r'H:\SAE_601\Pokemon_TCG\SAE601_2025\Data\list_card_TCG.csv'
 
 header = ["id", "name", "type", "subtype", "element", "health", "evolvesFrom", "rarity"]
 
