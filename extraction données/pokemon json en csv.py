@@ -4,10 +4,10 @@ import csv
 from collections import defaultdict
 
 # Chemins
-input_folder = r'D:\DATA_SAE601\output - Copie'
-output_joueurs = r'H:\SAE_601\joueurs.csv'
-output_matchs = r'H:\SAE_601\matchs.csv'
-output_duels = r'H:\SAE_601\duels.csv'
+input_folder = r'D:\DATA_SAE601\output'
+output_joueurs = r'H:\SAE_601\Pokemon_TCG\SAE601_2025\Data\joueur_match_duels\joueurs.csv'
+output_matchs = r'H:\SAE_601\Pokemon_TCG\SAE601_2025\Data\joueur_match_duels\matchs.csv'
+output_duels = r'H:\SAE_601\Pokemon_TCG\SAE601_2025\Data\joueur_match_duels\duels.csv'
 
 # Stockage
 joueurs_rows = []
