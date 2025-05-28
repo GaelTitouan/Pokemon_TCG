@@ -335,7 +335,8 @@ async def main():
   # Limit number of concurent open files
   sem = asyncio.Semaphore(50)
 
-  async with aiohttp.ClientSession(base_url=base_url, connector=connector) as session:
+  async with aiohttp.ClientSession(base_url=base_url, connector=connector,proxy = "http://ocytohe.univ-ubs.fr:3128") as session:
     await handle_tournament_list_page(session, sem, first_tournament_page)
-    
+    path= r"C:\Users\e2201649\AppData\local\Programs\Python\Python313\\"
 asyncio.run(main())
+
