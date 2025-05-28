@@ -33,7 +33,7 @@ output_duels = r'H:\SAE_601\Pokemon_TCG\SAE601_2025\Data\joueur_match_duels\duel
 ---
 
 ### 2. Extraction des cartes Pokémon
-On a récupéré la liste des carte pokemon de TCG Pocket via un repository git accessible via ce lien https://github.com/hugoburguete/pokemon-tcg-pocket-card-database , il liste le données des cartes dans des fichier json.
+On a récupéré la liste des carte pokemon de TCG Pocket via un repository git accessible via ce lien https://github.com/hugoburguete/pokemon-tcg-pocket-card-database , il liste les données des cartes dans des fichier json.
 Le script `liste_card_TCG.py` lit tous les fichiers `.json` contenant des cartes depuis le dossier source, et génère un fichier `list_card_TCG.csv` contenant les attributs principaux de chaque carte.
 
 #### 📌 Pour exécuter :
