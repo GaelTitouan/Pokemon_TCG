@@ -1,0 +1,1099 @@
+﻿id;name;type;subtype;element;health;evolvesFrom;rarity
+a1-001;Bulbasaur;Pokemon;Basic;Grass;70;;Common
+a1-002;Ivysaur;Pokemon;Stage 1;Grass;90;Bulbasaur;Uncommon
+a1-003;Venusaur;Pokemon;Stage 2;Grass;160;Ivysaur;Rare
+a1-004;Venusaur ex;Pokemon;Stage 2;Grass;190;Ivysaur;Rare EX
+a1-005;Caterpie;Pokemon;Basic;Grass;50;;Common
+a1-006;Metapod;Pokemon;Stage 1;Grass;80;Caterpie;Common
+a1-007;Butterfree;Pokemon;Stage 2;Grass;120;Metapod;Rare
+a1-008;Weedle;Pokemon;Basic;Grass;50;;Common
+a1-009;Kakuna;Pokemon;Stage 1;Grass;80;Weedle;Common
+a1-010;Beedrill;Pokemon;Stage 2;Grass;120;Kakuna;Rare
+a1-011;Oddish;Pokemon;Basic;Grass;60;;Common
+a1-012;Gloom;Pokemon;Stage 1;Grass;80;Oddish;Uncommon
+a1-013;Vileplume;Pokemon;Stage 2;Grass;140;Gloom;Rare
+a1-014;Paras;Pokemon;Basic;Grass;70;;Common
+a1-015;Parasect;Pokemon;Stage 1;Grass;120;Paras;Uncommon
+a1-016;Venonat;Pokemon;Basic;Grass;60;;Common
+a1-017;Venomoth;Pokemon;Stage 1;Grass;80;Venonat;Uncommon
+a1-018;Bellsprout;Pokemon;Basic;Grass;60;;Common
+a1-019;Weepinbell;Pokemon;Stage 1;Grass;90;Bellsprout;Uncommon
+a1-020;Victreebel;Pokemon;Stage 2;Grass;140;Weepinbell;Rare
+a1-021;Exeggcute;Pokemon;Basic;Grass;50;;Common
+a1-022;Exeggutor;Pokemon;Stage 1;Grass;130;Exeggcute;Rare
+a1-023;Exeggutor ex;Pokemon;Stage 1;Grass;160;Exeggcute;Rare EX
+a1-024;Tangela;Pokemon;Basic;Grass;80;;Common
+a1-025;Scyther;Pokemon;Basic;Grass;70;;Common
+a1-026;Pinsir;Pokemon;Basic;Grass;90;;Uncommon
+a1-027;Cottonee;Pokemon;Basic;Grass;50;;Common
+a1-028;Whimsicott;Pokemon;Stage 1;Grass;80;Cottonee;Uncommon
+a1-029;Petilil;Pokemon;Basic;Grass;60;;Common
+a1-030;Lilligant;Pokemon;Stage 1;Grass;100;Petilil;Uncommon
+a1-031;Skiddo;Pokemon;Basic;Grass;70;;Common
+a1-032;Gogoat;Pokemon;Stage 1;Grass;120;Skiddo;Common
+a1-033;Charmander;Pokemon;Basic;Fire;60;;Common
+a1-034;Charmeleon;Pokemon;Stage 1;Fire;90;Charmander;Uncommon
+a1-035;Charizard;Pokemon;Stage 2;Fire;150;Charmeleon;Rare
+a1-036;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Rare EX
+a1-037;Vulpix;Pokemon;Basic;Fire;50;;Common
+a1-038;Ninetales;Pokemon;Stage 1;Fire;90;Vulpix;Uncommon
+a1-039;Growlithe;Pokemon;Basic;Fire;70;;Common
+a1-040;Arcanine;Pokemon;Stage 1;Fire;130;Growlithe;Rare
+a1-041;Arcanine ex;Pokemon;Stage 1;Fire;150;Growlithe;Rare EX
+a1-042;Ponyta;Pokemon;Basic;Fire;60;;Common
+a1-043;Rapidash;Pokemon;Stage 1;Fire;100;Ponyta;Uncommon
+a1-044;Magmar;Pokemon;Basic;Fire;80;;Common
+a1-045;Flareon;Pokemon;Stage 1;Fire;120;Eevee;Rare
+a1-046;Moltres;Pokemon;Basic;Fire;100;;Rare
+a1-047;Moltres ex;Pokemon;Basic;Fire;140;;Rare EX
+a1-048;Heatmor;Pokemon;Basic;Fire;80;;Common
+a1-049;Salandit;Pokemon;Basic;Fire;60;;Common
+a1-050;Salazzle;Pokemon;Stage 1;Fire;90;Salandit;Common
+a1-051;Sizzlipede;Pokemon;Basic;Fire;60;;Common
+a1-052;Centiskorch;Pokemon;Stage 1;Fire;130;Sizzlipede;Uncommon
+a1-053;Squirtle;Pokemon;Basic;Water;60;;Common
+a1-054;Wartortle;Pokemon;Stage 1;Water;80;Squirtle;Uncommon
+a1-055;Blastoise;Pokemon;Stage 2;Water;150;Wartortle;Rare
+a1-056;Blastoise ex;Pokemon;Stage 2;Water;180;Wartortle;Rare EX
+a1-057;Psyduck;Pokemon;Basic;Water;60;;Common
+a1-058;Golduck;Pokemon;Stage 1;Water;90;Psyduck;Uncommon
+a1-059;Poliwag;Pokemon;Basic;Water;60;;Common
+a1-060;Poliwhirl;Pokemon;Stage 1;Water;90;Poliwag;Uncommon
+a1-061;Poliwrath;Pokemon;Stage 2;Water;150;Poliwhirl;Rare
+a1-062;Tentacool;Pokemon;Basic;Water;60;;Common
+a1-063;Tentacruel;Pokemon;Stage 1;Water;110;Tentacool;Uncommon
+a1-064;Seel;Pokemon;Basic;Water;80;;Common
+a1-065;Dewgong;Pokemon;Stage 1;Water;120;Seel;Uncommon
+a1-066;Shellder;Pokemon;Basic;Water;60;;Common
+a1-067;Cloyster;Pokemon;Stage 1;Water;120;Shellder;Uncommon
+a1-068;Krabby;Pokemon;Basic;Water;70;;Common
+a1-069;Kingler;Pokemon;Stage 1;Water;120;Krabby;Uncommon
+a1-070;Horsea;Pokemon;Basic;Water;60;;Common
+a1-071;Seadra;Pokemon;Stage 1;Water;70;Horsea;Uncommon
+a1-072;Goldeen;Pokemon;Basic;Water;60;;Common
+a1-073;Seaking;Pokemon;Stage 1;Water;100;Goldeen;Common
+a1-074;Staryu;Pokemon;Basic;Water;50;;Common
+a1-075;Starmie;Pokemon;Stage 1;Water;90;Staryu;Uncommon
+a1-076;Starmie ex;Pokemon;Stage 1;Water;130;Staryu;Rare EX
+a1-077;Magikarp;Pokemon;Basic;Water;30;;Common
+a1-078;Gyarados;Pokemon;Stage 1;Water;150;Magikarp;Rare
+a1-079;Lapras;Pokemon;Basic;Water;100;;Rare
+a1-080;Vaporeon;Pokemon;Stage 1;Water;130;Eevee;Rare
+a1-081;Omanyte;Pokemon;Stage 1;Water;90;Helix Fossil;Uncommon
+a1-082;Omastar;Pokemon;Stage 2;Water;140;Omanyte;Rare
+a1-083;Articuno;Pokemon;Basic;Water;100;;Rare
+a1-084;Articuno ex;Pokemon;Basic;Water;140;;Rare EX
+a1-085;Ducklett;Pokemon;Basic;Water;50;;Common
+a1-086;Swanna;Pokemon;Stage 1;Water;90;Ducklett;Uncommon
+a1-087;Froakie;Pokemon;Basic;Water;60;;Common
+a1-088;Frogadier;Pokemon;Stage 1;Water;80;Froakie;Uncommon
+a1-089;Greninja;Pokemon;Stage 2;Water;120;Frogadier;Rare
+a1-090;Pyukumuku;Pokemon;Basic;Water;70;;Common
+a1-091;Bruxish;Pokemon;Basic;Water;90;;Uncommon
+a1-092;Snom;Pokemon;Basic;Water;50;;Common
+a1-093;Frosmoth;Pokemon;Stage 1;Water;90;Snom;Uncommon
+a1-094;Pikachu;Pokemon;Basic;Lightning;60;;Common
+a1-095;Raichu;Pokemon;Stage 1;Lightning;100;Pikachu;Rare
+a1-096;Pikachu ex;Pokemon;Basic;Lightning;120;;Rare EX
+a1-097;Magnemite;Pokemon;Basic;Lightning;60;;Common
+a1-098;Magneton;Pokemon;Stage 1;Lightning;80;Magnemite;Rare
+a1-099;Voltorb;Pokemon;Basic;Lightning;60;;Common
+a1-100;Electrode;Pokemon;Stage 1;Lightning;80;Voltorb;Uncommon
+a1-101;Electabuzz;Pokemon;Basic;Lightning;70;;Common
+a1-102;Jolteon;Pokemon;Stage 1;Lightning;90;Eevee;Rare
+a1-103;Zapdos;Pokemon;Basic;Lightning;100;;Rare
+a1-104;Zapdos ex;Pokemon;Basic;Lightning;130;;Rare EX
+a1-105;Blitzle;Pokemon;Basic;Lightning;60;;Common
+a1-106;Zebstrika;Pokemon;Stage 1;Lightning;90;Blitzle;Uncommon
+a1-107;Tynamo;Pokemon;Basic;Lightning;30;;Common
+a1-108;Eelektrik;Pokemon;Stage 1;Lightning;80;Tynamo;Uncommon
+a1-109;Eelektross;Pokemon;Stage 2;Lightning;140;Eelektrik;Rare
+a1-110;Helioptile;Pokemon;Basic;Lightning;60;;Common
+a1-111;Heliolisk;Pokemon;Stage 1;Lightning;90;Helioptile;Common
+a1-112;Pincurchin;Pokemon;Basic;Lightning;70;;Uncommon
+a1-113;Clefairy;Pokemon;Basic;Psychic;60;;Common
+a1-114;Clefable;Pokemon;Stage 1;Psychic;100;Clefairy;Uncommon
+a1-115;Abra;Pokemon;Basic;Psychic;60;;Common
+a1-116;Kadabra;Pokemon;Stage 1;Psychic;80;Abra;Uncommon
+a1-117;Alakazam;Pokemon;Stage 2;Psychic;130;Kadabra;Rare
+a1-118;Slowpoke;Pokemon;Basic;Psychic;70;;Common
+a1-119;Slowbro;Pokemon;Stage 1;Psychic;130;Slowpoke;Uncommon
+a1-120;Gastly;Pokemon;Basic;Psychic;60;;Common
+a1-121;Haunter;Pokemon;Stage 1;Psychic;80;Gastly;Uncommon
+a1-122;Gengar;Pokemon;Stage 2;Psychic;130;Haunter;Rare
+a1-123;Gengar ex;Pokemon;Stage 2;Psychic;170;Haunter;Rare EX
+a1-124;Drowzee;Pokemon;Basic;Psychic;70;;Common
+a1-125;Hypno;Pokemon;Stage 1;Psychic;100;Drowzee;Rare
+a1-126;Mr. Mime;Pokemon;Basic;Psychic;80;;Uncommon
+a1-127;Jynx;Pokemon;Basic;Psychic;80;;Common
+a1-128;Mewtwo;Pokemon;Basic;Psychic;120;;Rare
+a1-129;Mewtwo ex;Pokemon;Basic;Psychic;150;;Rare EX
+a1-130;Ralts;Pokemon;Basic;Psychic;60;;Common
+a1-131;Kirlia;Pokemon;Stage 1;Psychic;80;Ralts;Uncommon
+a1-132;Gardevoir;Pokemon;Stage 2;Psychic;110;Kirlia;Rare
+a1-133;Woobat;Pokemon;Basic;Psychic;60;;Common
+a1-134;Swoobat;Pokemon;Stage 1;Psychic;90;Woobat;Common
+a1-135;Golett;Pokemon;Basic;Psychic;90;;Common
+a1-136;Golurk;Pokemon;Stage 1;Psychic;140;Golett;Uncommon
+a1-137;Sandshrew;Pokemon;Basic;Fighting;70;;Common
+a1-138;Sandslash;Pokemon;Stage 1;Fighting;100;Sandshrew;Uncommon
+a1-139;Diglett;Pokemon;Basic;Fighting;50;;Common
+a1-140;Dugtrio;Pokemon;Stage 1;Fighting;70;Diglett;Uncommon
+a1-141;Mankey;Pokemon;Basic;Fighting;60;;Common
+a1-142;Primeape;Pokemon;Stage 1;Fighting;90;Mankey;Uncommon
+a1-143;Machop;Pokemon;Basic;Fighting;70;;Common
+a1-144;Machoke;Pokemon;Stage 1;Fighting;100;Machop;Uncommon
+a1-145;Machamp;Pokemon;Stage 2;Fighting;150;Machoke;Rare
+a1-146;Machamp ex;Pokemon;Stage 2;Fighting;180;Machoke;Rare EX
+a1-147;Geodude;Pokemon;Basic;Fighting;70;;Common
+a1-148;Graveler;Pokemon;Stage 1;Fighting;100;Geodude;Uncommon
+a1-149;Golem;Pokemon;Stage 2;Fighting;160;Graveler;Rare
+a1-150;Onix;Pokemon;Basic;Fighting;110;;Uncommon
+a1-151;Cubone;Pokemon;Basic;Fighting;60;;Common
+a1-152;Marowak;Pokemon;Stage 1;Fighting;100;Cubone;Uncommon
+a1-153;Marowak ex;Pokemon;Stage 1;Fighting;140;Cubone;Rare EX
+a1-154;Hitmonlee;Pokemon;Basic;Fighting;80;;Common
+a1-155;Hitmonchan;Pokemon;Basic;Fighting;80;;Common
+a1-156;Rhyhorn;Pokemon;Basic;Fighting;80;;Common
+a1-157;Rhydon;Pokemon;Stage 1;Fighting;120;Rhyhorn;Uncommon
+a1-158;Kabuto;Pokemon;Stage 1;Fighting;90;Dome Fossil;Uncommon
+a1-159;Kabutops;Pokemon;Stage 2;Fighting;140;Kabuto;Rare
+a1-160;Mienfoo;Pokemon;Basic;Fighting;60;;Common
+a1-161;Mienshao;Pokemon;Stage 1;Fighting;80;Mienfoo;Uncommon
+a1-162;Clobbopus;Pokemon;Basic;Fighting;80;;Common
+a1-163;Grapploct;Pokemon;Stage 1;Fighting;130;Clobbopus;Uncommon
+a1-164;Ekans;Pokemon;Basic;Darkness;60;;Common
+a1-165;Arbok;Pokemon;Stage 1;Darkness;100;Ekans;Uncommon
+a1-166;Nidoran♀;Pokemon;Basic;Darkness;60;;Common
+a1-167;Nidorina;Pokemon;Stage 1;Darkness;80;Nidoran♀;Uncommon
+a1-168;Nidoqueen;Pokemon;Stage 2;Darkness;140;Nidorina;Rare
+a1-169;Nidoran♂;Pokemon;Basic;Darkness;60;;Common
+a1-170;Nidorino;Pokemon;Stage 1;Darkness;90;Nidoran♂;Uncommon
+a1-171;Nidoking;Pokemon;Stage 2;Darkness;150;Nidorino;Rare
+a1-172;Zubat;Pokemon;Basic;Darkness;50;;Common
+a1-173;Golbat;Pokemon;Stage 1;Darkness;70;Zubat;Uncommon
+a1-174;Grimer;Pokemon;Basic;Darkness;70;;Common
+a1-175;Muk;Pokemon;Stage 1;Darkness;130;Grimer;Rare
+a1-176;Koffing;Pokemon;Basic;Darkness;70;;Common
+a1-177;Weezing;Pokemon;Stage 1;Darkness;110;Koffing;Rare
+a1-178;Mawile;Pokemon;Basic;Metal;70;;Common
+a1-179;Pawniard;Pokemon;Basic;Metal;50;;Common
+a1-180;Bisharp;Pokemon;Stage 1;Metal;90;Pawniard;Uncommon
+a1-181;Meltan;Pokemon;Basic;Metal;60;;Common
+a1-182;Melmetal;Pokemon;Stage 1;Metal;130;Meltan;Rare
+a1-183;Dratini;Pokemon;Basic;Dragon;70;;Common
+a1-184;Dragonair;Pokemon;Stage 1;Dragon;100;Dratini;Uncommon
+a1-185;Dragonite;Pokemon;Stage 2;Dragon;160;Dragonair;Rare
+a1-186;Pidgey;Pokemon;Basic;Colorless;60;;Common
+a1-187;Pidgeotto;Pokemon;Stage 1;Colorless;80;Pidgey;Common
+a1-188;Pidgeot;Pokemon;Stage 2;Colorless;130;Pidgeotto;Rare
+a1-189;Rattata;Pokemon;Basic;Colorless;40;;Common
+a1-190;Raticate;Pokemon;Stage 1;Colorless;80;Rattata;Common
+a1-191;Spearow;Pokemon;Basic;Colorless;60;;Common
+a1-192;Fearow;Pokemon;Stage 1;Colorless;100;Spearow;Common
+a1-193;Jigglypuff;Pokemon;Basic;Colorless;60;;Common
+a1-194;Wigglytuff;Pokemon;Stage 1;Colorless;100;Jigglypuff;Common
+a1-195;Wigglytuff ex;Pokemon;Stage 1;Colorless;140;Jigglypuff;Rare EX
+a1-196;Meowth;Pokemon;Basic;Colorless;60;;Common
+a1-197;Persian;Pokemon;Stage 1;Colorless;90;Meowth;Uncommon
+a1-198;Farfetch'd;Pokemon;Basic;Colorless;60;;Common
+a1-199;Doduo;Pokemon;Basic;Colorless;60;;Common
+a1-200;Dodrio;Pokemon;Stage 1;Colorless;80;Doduo;Uncommon
+a1-201;Lickitung;Pokemon;Basic;Colorless;90;;Uncommon
+a1-202;Chansey;Pokemon;Basic;Colorless;120;;Uncommon
+a1-203;Kangaskhan;Pokemon;Basic;Colorless;100;;Rare
+a1-204;Tauros;Pokemon;Basic;Colorless;100;;Uncommon
+a1-205;Ditto;Pokemon;Basic;Colorless;70;;Rare
+a1-206;Eevee;Pokemon;Basic;Colorless;60;;Common
+a1-207;Eevee;Pokemon;Basic;Colorless;60;;Common
+a1-208;Eevee;Pokemon;Basic;Colorless;60;;Common
+a1-209;Porygon;Pokemon;Basic;Colorless;50;;Uncommon
+a1-210;Aerodactyl;Pokemon;Stage 1;Colorless;100;Old Amber;Rare
+a1-211;Snorlax;Pokemon;Basic;Colorless;150;;Rare
+a1-212;Minccino;Pokemon;Basic;Colorless;60;;Common
+a1-213;Cinccino;Pokemon;Stage 1;Colorless;90;Minccino;Uncommon
+a1-214;Wooloo;Pokemon;Basic;Colorless;70;;Common
+a1-215;Dubwool;Pokemon;Stage 1;Colorless;120;Wooloo;Common
+a1-216;Helix Fossil;Trainer;Item;;0;;Common
+a1-217;Dome Fossil;Trainer;Item;;0;;Common
+a1-218;Old Amber;Trainer;Item;;0;;Common
+a1-219;Erika;Trainer;Supporter;;0;;Uncommon
+a1-220;Misty;Trainer;Supporter;;0;;Uncommon
+a1-221;Blaine;Trainer;Supporter;;0;;Uncommon
+a1-222;Koga;Trainer;Supporter;;0;;Uncommon
+a1-223;Giovanni;Trainer;Supporter;;0;;Uncommon
+a1-224;Brock;Trainer;Supporter;;0;;Uncommon
+a1-225;Sabrina;Trainer;Supporter;;0;;Uncommon
+a1-226;Lt. Surge;Trainer;Supporter;;0;;Uncommon
+a1-227;Bulbasaur;Pokemon;Basic;Grass;70;;Full Art
+a1-228;Gloom;Pokemon;Stage 1;Grass;80;Oddish;Full Art
+a1-229;Pinsir;Pokemon;Basic;Grass;90;;Full Art
+a1-230;Charmander;Pokemon;Basic;Fire;60;;Full Art
+a1-231;Rapidash;Pokemon;Stage 1;Fire;100;Ponyta;Full Art
+a1-232;Squirtle;Pokemon;Basic;Water;60;;Full Art
+a1-233;Gyarados;Pokemon;Stage 1;Water;150;Magikarp;Full Art
+a1-234;Lapras;Pokemon;Basic;Water;100;;Full Art
+a1-235;Electrode;Pokemon;Stage 1;Lightning;80;Voltorb;Full Art
+a1-236;Alakazam;Pokemon;Stage 2;Psychic;130;Kadabra;Full Art
+a1-237;Slowpoke;Pokemon;Basic;Psychic;70;;Full Art
+a1-238;Diglett;Pokemon;Basic;Fighting;50;;Full Art
+a1-239;Cubone;Pokemon;Basic;Fighting;60;;Full Art
+a1-240;Nidoqueen;Pokemon;Stage 2;Darkness;140;Nidorina;Full Art
+a1-241;Nidoking;Pokemon;Stage 2;Darkness;150;Nidorino;Full Art
+a1-242;Golbat;Pokemon;Stage 1;Darkness;70;Zubat;Full Art
+a1-243;Weezing;Pokemon;Stage 1;Darkness;110;Koffing;Full Art
+a1-244;Dragonite;Pokemon;Stage 2;Dragon;160;Dragonair;Full Art
+a1-245;Pidgeot;Pokemon;Stage 2;Colorless;130;Pidgeotto;Full Art
+a1-246;Meowth;Pokemon;Basic;Colorless;60;;Full Art
+a1-247;Ditto;Pokemon;Basic;Colorless;70;;Full Art
+a1-248;Eevee;Pokemon;Basic;Colorless;60;;Full Art
+a1-249;Porygon;Pokemon;Basic;Colorless;50;;Full Art
+a1-250;Snorlax;Pokemon;Basic;Colorless;150;;Full Art
+a1-251;Venusaur ex;Pokemon;Stage 2;Grass;190;Ivysaur;Full Art EX/Support
+a1-252;Exeggutor ex;Pokemon;Stage 1;Grass;160;Exeggcute;Full Art EX/Support
+a1-253;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Full Art EX/Support
+a1-254;Arcanine ex;Pokemon;Stage 1;Fire;150;Growlithe;Full Art EX/Support
+a1-255;Moltres ex;Pokemon;Basic;Fire;140;;Full Art EX/Support
+a1-256;Blastoise ex;Pokemon;Stage 2;Water;180;Wartortle;Full Art EX/Support
+a1-257;Starmie ex;Pokemon;Stage 1;Water;130;Staryu;Full Art EX/Support
+a1-258;Articuno ex;Pokemon;Basic;Water;140;;Full Art EX/Support
+a1-259;Pikachu ex;Pokemon;Basic;Lightning;120;;Full Art EX/Support
+a1-260;Zapdos ex;Pokemon;Basic;Lightning;130;;Full Art EX/Support
+a1-261;Gengar ex;Pokemon;Stage 2;Psychic;170;Haunter;Full Art EX/Support
+a1-262;Mewtwo ex;Pokemon;Basic;Psychic;150;;Full Art EX/Support
+a1-263;Machamp ex;Pokemon;Stage 2;Fighting;180;Machoke;Full Art EX/Support
+a1-264;Marowak ex;Pokemon;Stage 1;Fighting;140;Cubone;Full Art EX/Support
+a1-265;Wigglytuff ex;Pokemon;Stage 1;Colorless;140;Jigglypuff;Full Art EX/Support
+a1-266;Erika;Trainer;Supporter;;0;;Full Art EX/Support
+a1-267;Misty;Trainer;Supporter;;0;;Full Art EX/Support
+a1-268;Blaine;Trainer;Supporter;;0;;Full Art EX/Support
+a1-269;Koga;Trainer;Supporter;;0;;Full Art EX/Support
+a1-270;Giovanni;Trainer;Supporter;;0;;Full Art EX/Support
+a1-271;Brock;Trainer;Supporter;;0;;Full Art EX/Support
+a1-272;Sabrina;Trainer;Supporter;;0;;Full Art EX/Support
+a1-273;Lt. Surge;Trainer;Supporter;;0;;Full Art EX/Support
+a1-274;Moltres ex;Pokemon;Basic;Fire;140;;Full Art EX/Support
+a1-275;Articuno ex;Pokemon;Basic;Water;140;;Full Art EX/Support
+a1-276;Zapdos ex;Pokemon;Basic;Lightning;130;;Full Art EX/Support
+a1-277;Gengar ex;Pokemon;Stage 2;Psychic;170;Haunter;Full Art EX/Support
+a1-278;Machamp ex;Pokemon;Stage 2;Fighting;180;Machoke;Full Art EX/Support
+a1-279;Wigglytuff ex;Pokemon;Stage 1;Colorless;140;Jigglypuff;Full Art EX/Support
+a1-280;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Immersive
+a1-281;Pikachu ex;Pokemon;Basic;Lightning;120;;Immersive
+a1-282;Mewtwo ex;Pokemon;Basic;Psychic;150;;Immersive
+a1-283;Mew;Pokemon;Basic;Psychic;60;;Immersive
+a1-284;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Gold Crown
+a1-285;Pikachu ex;Pokemon;Basic;Lightning;120;;Gold Crown
+a1-286;Mewtwo ex;Pokemon;Basic;Psychic;150;;Gold Crown
+a1a-001;Exeggcute;Pokemon;Basic;Grass;50;;Common
+a1a-002;Exeggutor;Pokemon;Stage 1;Grass;130;Exeggcute;Uncommon
+a1a-003;Celebi ex;Pokemon;Basic;Grass;130;;Rare EX
+a1a-004;Snivy;Pokemon;Basic;Grass;70;;Common
+a1a-005;Servine;Pokemon;Stage 1;Grass;80;Snivy;Uncommon
+a1a-006;Serperior;Pokemon;Stage 2;Grass;110;Servine;Rare
+a1a-007;Morelull;Pokemon;Basic;Grass;60;;Common
+a1a-008;Shiinotic;Pokemon;Stage 1;Grass;90;Morelull;Uncommon
+a1a-009;Dhelmise;Pokemon;Basic;Grass;100;;Uncommon
+a1a-010;Ponyta;Pokemon;Basic;Fire;60;;Common
+a1a-011;Rapidash;Pokemon;Stage 1;Fire;100;Ponyta;Uncommon
+a1a-012;Magmar;Pokemon;Basic;Fire;80;;Uncommon
+a1a-013;Larvesta;Pokemon;Basic;Fire;80;;Common
+a1a-014;Volcarona;Pokemon;Stage 1;Fire;120;Larvesta;Rare
+a1a-015;Salandit;Pokemon;Basic;Fire;60;;Common
+a1a-016;Salazzle;Pokemon;Stage 1;Fire;80;Salandit;Common
+a1a-017;Magikarp;Pokemon;Basic;Water;30;;Common
+a1a-018;Gyarados ex;Pokemon;Stage 1;Water;180;Magikarp;Rare EX
+a1a-019;Vaporeon;Pokemon;Stage 1;Water;120;Eevee;Rare
+a1a-020;Finneon;Pokemon;Basic;Water;60;;Common
+a1a-021;Lumineon;Pokemon;Stage 1;Water;80;Finneon;Uncommon
+a1a-022;Chewtle;Pokemon;Basic;Water;80;;Common
+a1a-023;Drednaw;Pokemon;Stage 1;Water;130;Chewtle;Uncommon
+a1a-024;Cramorant;Pokemon;Basic;Water;80;;Common
+a1a-025;Pikachu;Pokemon;Basic;Lightning;60;;Common
+a1a-026;Raichu;Pokemon;Stage 1;Lightning;120;Pikachu;Rare
+a1a-027;Electabuzz;Pokemon;Basic;Lightning;70;;Uncommon
+a1a-028;Joltik;Pokemon;Basic;Lightning;40;;Common
+a1a-029;Galvantula;Pokemon;Stage 1;Lightning;80;Joltik;Uncommon
+a1a-030;Dedenne;Pokemon;Basic;Lightning;60;;Common
+a1a-031;Mew;Pokemon;Basic;Psychic;60;;Rare
+a1a-032;Mew ex;Pokemon;Basic;Psychic;130;;Rare EX
+a1a-033;Sigilyph;Pokemon;Basic;Psychic;80;;Uncommon
+a1a-034;Elgyem;Pokemon;Basic;Psychic;60;;Common
+a1a-035;Beheeyem;Pokemon;Stage 1;Psychic;90;Elgyem;Uncommon
+a1a-036;Flabébé;Pokemon;Basic;Psychic;40;;Common
+a1a-037;Floette;Pokemon;Stage 1;Psychic;70;Flabébé;Common
+a1a-038;Florges;Pokemon;Stage 2;Psychic;120;Floette;Uncommon
+a1a-039;Swirlix;Pokemon;Basic;Psychic;60;;Common
+a1a-040;Slurpuff;Pokemon;Stage 1;Psychic;100;Swirlix;Common
+a1a-041;Mankey;Pokemon;Basic;Fighting;50;;Common
+a1a-042;Primeape;Pokemon;Stage 1;Fighting;80;Mankey;Common
+a1a-043;Geodude;Pokemon;Basic;Fighting;70;;Common
+a1a-044;Graveler;Pokemon;Stage 1;Fighting;100;Geodude;Uncommon
+a1a-045;Golem;Pokemon;Stage 2;Fighting;160;Graveler;Rare
+a1a-046;Aerodactyl ex;Pokemon;Stage 1;Fighting;140;Old Amber;Rare EX
+a1a-047;Marshadow;Pokemon;Basic;Fighting;80;;Rare
+a1a-048;Stonjourner;Pokemon;Basic;Fighting;120;;Uncommon
+a1a-049;Koffing;Pokemon;Basic;Darkness;70;;Common
+a1a-050;Weezing;Pokemon;Stage 1;Darkness;110;Koffing;Uncommon
+a1a-051;Purrloin;Pokemon;Basic;Darkness;60;;Common
+a1a-052;Liepard;Pokemon;Stage 1;Darkness;90;Purrloin;Common
+a1a-053;Venipede;Pokemon;Basic;Darkness;60;;Common
+a1a-054;Whirlipede;Pokemon;Stage 1;Darkness;90;Venipede;Common
+a1a-055;Scolipede;Pokemon;Stage 2;Darkness;140;Whirlipede;Uncommon
+a1a-056;Druddigon;Pokemon;Basic;Dragon;100;;Uncommon
+a1a-057;Pidgey;Pokemon;Basic;Colorless;50;;Common
+a1a-058;Pidgeotto;Pokemon;Stage 1;Colorless;90;Pidgey;Common
+a1a-059;Pidgeot ex;Pokemon;Stage 2;Colorless;170;Pidgeotto;Rare EX
+a1a-060;Tauros;Pokemon;Basic;Colorless;100;;Rare
+a1a-061;Eevee;Pokemon;Basic;Colorless;60;;Common
+a1a-062;Chatot;Pokemon;Basic;Colorless;60;;Common
+a1a-063;Old Amber;Trainer;Item;;0;;Common
+a1a-064;Pokémon Flute;Trainer;Item;;0;;Uncommon
+a1a-065;Mythical Slab;Trainer;Item;;0;;Uncommon
+a1a-066;Budding Expeditioner;Trainer;Supporter;;0;;Uncommon
+a1a-067;Blue;Trainer;Supporter;;0;;Uncommon
+a1a-068;Leaf;Trainer;Supporter;;0;;Uncommon
+a1a-069;Exeggutor;Pokemon;Stage 1;Grass;130;Exeggcute;Full Art
+a1a-070;Serperior;Pokemon;Stage 2;Grass;110;Servine;Full Art
+a1a-071;Salandit;Pokemon;Basic;Fire;60;;Full Art
+a1a-072;Vaporeon;Pokemon;Stage 1;Water;120;Eevee;Full Art
+a1a-073;Dedenne;Pokemon;Basic;Lightning;60;;Full Art
+a1a-074;Marshadow;Pokemon;Basic;Fighting;80;;Full Art
+a1a-075;Celebi ex;Pokemon;Basic;Grass;130;;Full Art EX/Support
+a1a-076;Gyarados ex;Pokemon;Stage 1;Water;180;Magikarp;Full Art EX/Support
+a1a-077;Mew ex;Pokemon;Basic;Psychic;130;;Full Art EX/Support
+a1a-078;Aerodactyl ex;Pokemon;Stage 1;Fighting;140;Old Amber;Full Art EX/Support
+a1a-079;Pidgeot ex;Pokemon;Stage 2;Colorless;170;Pidgeotto;Full Art EX/Support
+a1a-080;Budding Expeditioner;Trainer;Supporter;;0;;Full Art EX/Support
+a1a-081;Blue;Trainer;Supporter;;0;;Full Art EX/Support
+a1a-082;Leaf;Trainer;Supporter;;0;;Full Art EX/Support
+a1a-083;Mew ex;Pokemon;Basic;Psychic;130;;Full Art EX/Support
+a1a-084;Aerodactyl ex;Pokemon;Stage 1;Fighting;140;Old Amber;Full Art EX/Support
+a1a-085;Celebi ex;Pokemon;Basic;Grass;130;;Immersive
+a1a-086;Mew ex;Pokemon;Basic;Psychic;130;;Gold Crown
+a2-001;Oddish;Pokemon;Basic;Grass;60;;Common
+a2-002;Gloom;Pokemon;Stage 1;Grass;80;Oddish;Common
+a2-003;Bellossom;Pokemon;Stage 2;Grass;130;Gloom;Uncommon
+a2-004;Tangela;Pokemon;Basic;Grass;70;;Common
+a2-005;Tangrowth;Pokemon;Stage 1;Grass;130;Tangela;Uncommon
+a2-006;Yanma;Pokemon;Basic;Grass;50;;Common
+a2-007;Yanmega ex;Pokemon;Stage 1;Grass;140;Yanma;Rare EX
+a2-008;Roselia;Pokemon;Basic;Grass;70;;Common
+a2-009;Roserade;Pokemon;Stage 1;Grass;100;Roselia;Uncommon
+a2-010;Turtwig;Pokemon;Basic;Grass;80;;Common
+a2-011;Grotle;Pokemon;Stage 1;Grass;100;Turtwig;Uncommon
+a2-012;Torterra;Pokemon;Stage 2;Grass;160;Grotle;Rare
+a2-013;Kricketot;Pokemon;Basic;Grass;60;;Common
+a2-014;Kricketune;Pokemon;Stage 1;Grass;90;Kricketot;Common
+a2-015;Burmy;Pokemon;Basic;Grass;60;;Common
+a2-016;Wormadam;Pokemon;Stage 1;Grass;120;Burmy;Common
+a2-017;Combee;Pokemon;Basic;Grass;50;;Common
+a2-018;Vespiquen;Pokemon;Stage 1;Grass;100;Combee;Uncommon
+a2-019;Carnivine;Pokemon;Basic;Grass;90;;Uncommon
+a2-020;Leafeon;Pokemon;Stage 1;Grass;90;Eevee;Rare
+a2-021;Mow Rotom;Pokemon;Basic;Grass;80;;Common
+a2-022;Shaymin;Pokemon;Basic;Grass;60;;Rare
+a2-023;Magmar;Pokemon;Basic;Fire;80;;Common
+a2-024;Magmortar;Pokemon;Stage 1;Fire;130;Magmar;Rare
+a2-025;Slugma;Pokemon;Basic;Fire;70;;Common
+a2-026;Magcargo;Pokemon;Stage 1;Fire;120;Slugma;Uncommon
+a2-027;Chimchar;Pokemon;Basic;Fire;60;;Common
+a2-028;Monferno;Pokemon;Stage 1;Fire;80;Chimchar;Uncommon
+a2-029;Infernape ex;Pokemon;Stage 2;Fire;170;Monferno;Rare EX
+a2-030;Heat Rotom;Pokemon;Basic;Fire;80;;Common
+a2-031;Swinub;Pokemon;Basic;Water;60;;Common
+a2-032;Piloswine;Pokemon;Stage 1;Water;110;Swinub;Uncommon
+a2-033;Mamoswine;Pokemon;Stage 2;Water;160;Piloswine;Rare
+a2-034;Regice;Pokemon;Basic;Water;110;;Uncommon
+a2-035;Piplup;Pokemon;Basic;Water;60;;Common
+a2-036;Prinplup;Pokemon;Stage 1;Water;90;Piplup;Uncommon
+a2-037;Empoleon;Pokemon;Stage 2;Water;150;Prinplup;Rare
+a2-038;Buizel;Pokemon;Basic;Water;60;;Common
+a2-039;Floatzel;Pokemon;Stage 1;Water;90;Buizel;Uncommon
+a2-040;Shellos;Pokemon;Basic;Water;70;;Common
+a2-041;Gastrodon;Pokemon;Stage 1;Water;120;Shellos;Uncommon
+a2-042;Finneon;Pokemon;Basic;Water;50;;Common
+a2-043;Lumineon;Pokemon;Stage 1;Water;90;Finneon;Uncommon
+a2-044;Snover;Pokemon;Basic;Water;70;;Common
+a2-045;Abomasnow;Pokemon;Stage 1;Water;140;Snover;Uncommon
+a2-046;Glaceon;Pokemon;Stage 1;Water;90;Eevee;Rare
+a2-047;Wash Rotom;Pokemon;Basic;Water;80;;Common
+a2-048;Frost Rotom;Pokemon;Basic;Water;80;;Common
+a2-049;Palkia ex;Pokemon;Basic;Water;150;;Rare EX
+a2-050;Manaphy;Pokemon;Basic;Water;50;;Uncommon
+a2-051;Magnemite;Pokemon;Basic;Lightning;60;;Common
+a2-052;Magneton;Pokemon;Stage 1;Lightning;80;Magnemite;Uncommon
+a2-053;Magnezone;Pokemon;Stage 2;Lightning;140;Magneton;Rare
+a2-054;Voltorb;Pokemon;Basic;Lightning;60;;Common
+a2-055;Electrode;Pokemon;Stage 1;Lightning;80;Voltorb;Uncommon
+a2-056;Electabuzz;Pokemon;Basic;Lightning;80;;Common
+a2-057;Electivire;Pokemon;Stage 1;Lightning;120;Electabuzz;Rare
+a2-058;Shinx;Pokemon;Basic;Lightning;60;;Common
+a2-059;Luxio;Pokemon;Stage 1;Lightning;90;Shinx;Uncommon
+a2-060;Luxray;Pokemon;Stage 2;Lightning;130;Luxio;Rare
+a2-061;Pachirisu ex;Pokemon;Basic;Lightning;120;;Rare EX
+a2-062;Rotom;Pokemon;Basic;Lightning;70;;Common
+a2-063;Togepi;Pokemon;Basic;Psychic;50;;Common
+a2-064;Togetic;Pokemon;Stage 1;Psychic;80;Togepi;Uncommon
+a2-065;Togekiss;Pokemon;Stage 2;Psychic;140;Togetic;Rare
+a2-066;Misdreavus;Pokemon;Basic;Psychic;60;;Common
+a2-067;Mismagius ex;Pokemon;Stage 1;Psychic;140;Misdreavus;Rare EX
+a2-068;Ralts;Pokemon;Basic;Psychic;60;;Common
+a2-069;Kirlia;Pokemon;Stage 1;Psychic;80;Ralts;Common
+a2-070;Duskull;Pokemon;Basic;Psychic;60;;Common
+a2-071;Dusclops;Pokemon;Stage 1;Psychic;90;Duskull;Uncommon
+a2-072;Dusknoir;Pokemon;Stage 2;Psychic;130;Dusclops;Rare
+a2-073;Drifloon;Pokemon;Basic;Psychic;50;;Common
+a2-074;Drifblim;Pokemon;Stage 1;Psychic;100;Drifloon;Uncommon
+a2-075;Uxie;Pokemon;Basic;Psychic;70;;Uncommon
+a2-076;Mesprit;Pokemon;Basic;Psychic;70;;Rare
+a2-077;Azelf;Pokemon;Basic;Psychic;70;;Uncommon
+a2-078;Giratina;Pokemon;Basic;Psychic;120;;Rare
+a2-079;Cresselia;Pokemon;Basic;Psychic;110;;Rare
+a2-080;Rhyhorn;Pokemon;Basic;Fighting;80;;Common
+a2-081;Rhydon;Pokemon;Stage 1;Fighting;110;Rhyhorn;Uncommon
+a2-082;Rhyperior;Pokemon;Stage 2;Fighting;160;Rhydon;Rare
+a2-083;Gligar;Pokemon;Basic;Fighting;60;;Common
+a2-084;Gliscor;Pokemon;Stage 1;Fighting;100;Gligar;Uncommon
+a2-085;Hitmontop;Pokemon;Basic;Fighting;80;;Common
+a2-086;Nosepass;Pokemon;Basic;Fighting;70;;Common
+a2-087;Regirock;Pokemon;Basic;Fighting;120;;Uncommon
+a2-088;Cranidos;Pokemon;Stage 1;Fighting;90;Skull Fossil;Uncommon
+a2-089;Rampardos;Pokemon;Stage 2;Fighting;150;Cranidos;Rare
+a2-090;Wormadam;Pokemon;Stage 1;Fighting;120;Burmy;Common
+a2-091;Riolu;Pokemon;Basic;Fighting;60;;Common
+a2-092;Lucario;Pokemon;Stage 1;Fighting;100;Riolu;Rare
+a2-093;Hippopotas;Pokemon;Basic;Fighting;80;;Common
+a2-094;Hippowdon;Pokemon;Stage 1;Fighting;140;Hippopotas;Uncommon
+a2-095;Gallade ex;Pokemon;Stage 2;Fighting;170;Kirlia;Rare EX
+a2-096;Murkrow;Pokemon;Basic;Darkness;60;;Common
+a2-097;Honchkrow;Pokemon;Stage 1;Darkness;100;Murkrow;Uncommon
+a2-098;Sneasel;Pokemon;Basic;Darkness;60;;Common
+a2-099;Weavile ex;Pokemon;Stage 1;Darkness;140;Sneasel;Rare EX
+a2-100;Poochyena;Pokemon;Basic;Darkness;60;;Common
+a2-101;Mightyena;Pokemon;Stage 1;Darkness;90;Poochyena;Uncommon
+a2-102;Stunky;Pokemon;Basic;Darkness;70;;Common
+a2-103;Skuntank;Pokemon;Stage 1;Darkness;100;Stunky;Uncommon
+a2-104;Spiritomb;Pokemon;Basic;Darkness;80;;Uncommon
+a2-105;Skorupi;Pokemon;Basic;Darkness;70;;Common
+a2-106;Drapion;Pokemon;Stage 1;Darkness;120;Skorupi;Uncommon
+a2-107;Croagunk;Pokemon;Basic;Darkness;60;;Common
+a2-108;Toxicroak;Pokemon;Stage 1;Darkness;90;Croagunk;Uncommon
+a2-109;Darkrai;Pokemon;Basic;Darkness;110;;Rare
+a2-110;Darkrai ex;Pokemon;Basic;Darkness;140;;Rare EX
+a2-111;Skarmory;Pokemon;Basic;Metal;80;;Uncommon
+a2-112;Registeel;Pokemon;Basic;Metal;110;;Uncommon
+a2-113;Shieldon;Pokemon;Stage 1;Metal;100;Armor Fossil;Uncommon
+a2-114;Bastiodon;Pokemon;Stage 2;Metal;160;Shieldon;Rare
+a2-115;Wormadam;Pokemon;Stage 1;Metal;110;Burmy;Common
+a2-116;Bronzor;Pokemon;Basic;Metal;60;;Common
+a2-117;Bronzong;Pokemon;Stage 1;Metal;120;Bronzor;Uncommon
+a2-118;Probopass;Pokemon;Stage 1;Metal;130;Nosepass;Uncommon
+a2-119;Dialga ex;Pokemon;Basic;Metal;150;;Rare EX
+a2-120;Heatran;Pokemon;Basic;Metal;120;;Rare
+a2-121;Gible;Pokemon;Basic;Dragon;60;;Common
+a2-122;Gabite;Pokemon;Stage 1;Dragon;90;Gible;Uncommon
+a2-123;Garchomp;Pokemon;Stage 2;Dragon;140;Gabite;Rare
+a2-124;Lickitung;Pokemon;Basic;Colorless;80;;Common
+a2-125;Lickilicky ex;Pokemon;Stage 1;Colorless;160;Lickitung;Rare EX
+a2-126;Eevee;Pokemon;Basic;Colorless;60;;Common
+a2-127;Porygon;Pokemon;Basic;Colorless;60;;Common
+a2-128;Porygon2;Pokemon;Stage 1;Colorless;80;Porygon;Uncommon
+a2-129;Porygon-Z;Pokemon;Stage 2;Colorless;140;Porygon2;Rare
+a2-130;Aipom;Pokemon;Basic;Colorless;60;;Common
+a2-131;Ambipom;Pokemon;Stage 1;Colorless;90;Aipom;Common
+a2-132;Starly;Pokemon;Basic;Colorless;50;;Common
+a2-133;Staravia;Pokemon;Stage 1;Colorless;80;Starly;Common
+a2-134;Staraptor;Pokemon;Stage 2;Colorless;140;Staravia;Uncommon
+a2-135;Bidoof;Pokemon;Basic;Colorless;60;;Common
+a2-136;Bibarel;Pokemon;Stage 1;Colorless;110;Bidoof;Common
+a2-137;Buneary;Pokemon;Basic;Colorless;60;;Common
+a2-138;Lopunny;Pokemon;Stage 1;Colorless;90;Buneary;Common
+a2-139;Glameow;Pokemon;Basic;Colorless;60;;Common
+a2-140;Purugly;Pokemon;Stage 1;Colorless;110;Glameow;Uncommon
+a2-141;Chatot;Pokemon;Basic;Colorless;70;;Common
+a2-142;Fan Rotom;Pokemon;Basic;Colorless;80;;Common
+a2-143;Regigigas;Pokemon;Basic;Colorless;140;;Rare
+a2-144;Skull Fossil;Trainer;Item;;0;;Common
+a2-145;Armor Fossil;Trainer;Item;;0;;Common
+a2-146;Pokémon Communication;Trainer;Item;;0;;Uncommon
+a2-147;Giant Cape;Trainer;Tool;;0;;Uncommon
+a2-148;Rocky Helmet;Trainer;Tool;;0;;Uncommon
+a2-149;Lum Berry;Trainer;Tool;;0;;Uncommon
+a2-150;Cyrus;Trainer;Supporter;;0;;Uncommon
+a2-151;Team Galactic Grunt;Trainer;Supporter;;0;;Uncommon
+a2-152;Cynthia;Trainer;Supporter;;0;;Uncommon
+a2-153;Volkner;Trainer;Supporter;;0;;Uncommon
+a2-154;Dawn;Trainer;Supporter;;0;;Uncommon
+a2-155;Mars;Trainer;Supporter;;0;;Uncommon
+a2-156;Tangrowth;Pokemon;Stage 1;Grass;130;Tangela;Full Art
+a2-157;Combee;Pokemon;Basic;Grass;50;;Full Art
+a2-158;Carnivine;Pokemon;Basic;Grass;90;;Full Art
+a2-159;Shaymin;Pokemon;Basic;Grass;60;;Full Art
+a2-160;Mamoswine;Pokemon;Stage 2;Water;160;Piloswine;Full Art
+a2-161;Gastrodon;Pokemon;Stage 1;Water;120;Shellos;Full Art
+a2-162;Manaphy;Pokemon;Basic;Water;50;;Full Art
+a2-163;Shinx;Pokemon;Basic;Lightning;60;;Full Art
+a2-164;Rotom;Pokemon;Basic;Lightning;70;;Full Art
+a2-165;Drifloon;Pokemon;Basic;Psychic;50;;Full Art
+a2-166;Mesprit;Pokemon;Basic;Psychic;70;;Full Art
+a2-167;Giratina;Pokemon;Basic;Psychic;120;;Full Art
+a2-168;Cresselia;Pokemon;Basic;Psychic;110;;Full Art
+a2-169;Rhyperior;Pokemon;Stage 2;Fighting;160;Rhydon;Full Art
+a2-170;Lucario;Pokemon;Stage 1;Fighting;100;Riolu;Full Art
+a2-171;Hippopotas;Pokemon;Basic;Fighting;80;;Full Art
+a2-172;Spiritomb;Pokemon;Basic;Darkness;80;;Full Art
+a2-173;Croagunk;Pokemon;Basic;Darkness;60;;Full Art
+a2-174;Heatran;Pokemon;Basic;Metal;120;;Full Art
+a2-175;Garchomp;Pokemon;Stage 2;Dragon;140;Gabite;Full Art
+a2-176;Staraptor;Pokemon;Stage 2;Colorless;140;Staravia;Full Art
+a2-177;Bidoof;Pokemon;Basic;Colorless;60;;Full Art
+a2-178;Glameow;Pokemon;Basic;Colorless;60;;Full Art
+a2-179;Regigigas;Pokemon;Basic;Colorless;140;;Full Art
+a2-180;Yanmega ex;Pokemon;Stage 1;Grass;140;Yanma;Full Art EX/Support
+a2-181;Infernape ex;Pokemon;Stage 2;Fire;170;Monferno;Full Art EX/Support
+a2-182;Palkia ex;Pokemon;Basic;Water;150;;Full Art EX/Support
+a2-183;Pachirisu ex;Pokemon;Basic;Lightning;120;;Full Art EX/Support
+a2-184;Mismagius ex;Pokemon;Stage 1;Psychic;140;Misdreavus;Full Art EX/Support
+a2-185;Gallade ex;Pokemon;Stage 2;Fighting;170;Kirlia;Full Art EX/Support
+a2-186;Weavile ex;Pokemon;Stage 1;Darkness;140;Sneasel;Full Art EX/Support
+a2-187;Darkrai ex;Pokemon;Basic;Darkness;140;;Full Art EX/Support
+a2-188;Dialga ex;Pokemon;Basic;Metal;150;;Full Art EX/Support
+a2-189;Lickilicky ex;Pokemon;Stage 1;Colorless;160;Lickitung;Full Art EX/Support
+a2-190;Cyrus;Trainer;Supporter;;0;;Full Art EX/Support
+a2-191;Team Galactic Grunt;Trainer;Supporter;;0;;Full Art EX/Support
+a2-192;Cynthia;Trainer;Supporter;;0;;Full Art EX/Support
+a2-193;Volkner;Trainer;Supporter;;0;;Full Art EX/Support
+a2-194;Dawn;Trainer;Supporter;;0;;Full Art EX/Support
+a2-195;Mars;Trainer;Supporter;;0;;Full Art EX/Support
+a2-196;Yanmega ex;Pokemon;Stage 1;Grass;140;Yanma;Full Art EX/Support
+a2-197;Infernape ex;Pokemon;Stage 2;Fire;170;Monferno;Full Art EX/Support
+a2-198;Pachirisu ex;Pokemon;Basic;Lightning;120;;Full Art EX/Support
+a2-199;Mismagius ex;Pokemon;Stage 1;Psychic;140;Misdreavus;Full Art EX/Support
+a2-200;Gallade ex;Pokemon;Stage 2;Fighting;170;Kirlia;Full Art EX/Support
+a2-201;Weavile ex;Pokemon;Stage 1;Darkness;140;Sneasel;Full Art EX/Support
+a2-202;Darkrai ex;Pokemon;Basic;Darkness;140;;Full Art EX/Support
+a2-203;Lickilicky ex;Pokemon;Stage 1;Colorless;160;Lickitung;Full Art EX/Support
+a2-204;Palkia ex;Pokemon;Basic;Water;150;;Immersive
+a2-205;Dialga ex;Pokemon;Basic;Metal;150;;Immersive
+a2-206;Palkia ex;Pokemon;Basic;Water;150;;Gold Crown
+a2-207;Dialga ex;Pokemon;Basic;Metal;150;;Gold Crown
+a2a-001;Heracross;Pokemon;Basic;Grass;100;;Uncommon
+a2a-002;Burmy;Pokemon;Basic;Grass;50;;Common
+a2a-003;Mothim;Pokemon;Stage 1;Grass;90;Burmy;Uncommon
+a2a-004;Combee;Pokemon;Basic;Grass;50;;Common
+a2a-005;Vespiquen;Pokemon;Stage 1;Grass;100;Combee;Uncommon
+a2a-006;Cherubi;Pokemon;Basic;Grass;50;;Common
+a2a-007;Cherrim;Pokemon;Stage 1;Grass;80;Cherubi;Uncommon
+a2a-008;Cherrim;Pokemon;Stage 1;Grass;80;Cherubi;Uncommon
+a2a-009;Carnivine;Pokemon;Basic;Grass;80;;Rare
+a2a-010;Leafeon ex;Pokemon;Stage 1;Grass;140;Eevee;Rare EX
+a2a-011;Houndour;Pokemon;Basic;Fire;60;;Common
+a2a-012;Houndoom;Pokemon;Stage 1;Fire;100;Houndour;Uncommon
+a2a-013;Heatran;Pokemon;Basic;Fire;110;;Rare
+a2a-014;Marill;Pokemon;Basic;Water;60;;Common
+a2a-015;Azumarill;Pokemon;Stage 1;Water;100;Marill;Common
+a2a-016;Barboach;Pokemon;Basic;Water;60;;Common
+a2a-017;Whiscash;Pokemon;Stage 1;Water;120;Barboach;Uncommon
+a2a-018;Snorunt;Pokemon;Basic;Water;60;;Common
+a2a-019;Froslass;Pokemon;Stage 1;Water;90;Snorunt;Uncommon
+a2a-020;Snover;Pokemon;Basic;Water;70;;Common
+a2a-021;Abomasnow;Pokemon;Stage 1;Water;120;Snover;Rare
+a2a-022;Glaceon ex;Pokemon;Stage 1;Water;140;Eevee;Rare EX
+a2a-023;Origin Forme Palkia;Pokemon;Basic;Water;120;;Rare
+a2a-024;Phione;Pokemon;Basic;Water;60;;Uncommon
+a2a-025;Pikachu;Pokemon;Basic;Lightning;60;;Common
+a2a-026;Raichu;Pokemon;Stage 1;Lightning;90;Pikachu;Rare
+a2a-027;Electrike;Pokemon;Basic;Lightning;60;;Common
+a2a-028;Manectric;Pokemon;Stage 1;Lightning;90;Electrike;Uncommon
+a2a-029;Clefairy;Pokemon;Basic;Psychic;60;;Common
+a2a-030;Clefable;Pokemon;Stage 1;Psychic;100;Clefairy;Uncommon
+a2a-031;Gastly;Pokemon;Basic;Psychic;50;;Common
+a2a-032;Haunter;Pokemon;Stage 1;Psychic;80;Gastly;Common
+a2a-033;Gengar;Pokemon;Stage 2;Psychic;140;Haunter;Uncommon
+a2a-034;Unown;Pokemon;Basic;Psychic;60;;Uncommon
+a2a-035;Rotom;Pokemon;Basic;Psychic;70;;Rare
+a2a-036;Sudowoodo;Pokemon;Basic;Fighting;80;;Uncommon
+a2a-037;Phanpy;Pokemon;Basic;Fighting;60;;Common
+a2a-038;Donphan;Pokemon;Stage 1;Fighting;120;Phanpy;Uncommon
+a2a-039;Larvitar;Pokemon;Basic;Fighting;60;;Common
+a2a-040;Pupitar;Pokemon;Stage 1;Fighting;80;Larvitar;Uncommon
+a2a-041;Tyranitar;Pokemon;Stage 2;Fighting;160;Pupitar;Rare
+a2a-042;Nosepass;Pokemon;Basic;Fighting;80;;Common
+a2a-043;Meditite;Pokemon;Basic;Fighting;60;;Common
+a2a-044;Medicham;Pokemon;Stage 1;Fighting;100;Meditite;Uncommon
+a2a-045;Gible;Pokemon;Basic;Fighting;60;;Common
+a2a-046;Gabite;Pokemon;Stage 1;Fighting;80;Gible;Common
+a2a-047;Garchomp ex;Pokemon;Stage 2;Fighting;170;Gabite;Rare EX
+a2a-048;Zubat;Pokemon;Basic;Darkness;50;;Common
+a2a-049;Golbat;Pokemon;Stage 1;Darkness;80;Zubat;Common
+a2a-050;Crobat;Pokemon;Stage 2;Darkness;110;Golbat;Rare
+a2a-051;Croagunk;Pokemon;Basic;Darkness;60;;Common
+a2a-052;Toxicroak;Pokemon;Stage 1;Darkness;100;Croagunk;Uncommon
+a2a-053;Magnemite;Pokemon;Basic;Metal;60;;Common
+a2a-054;Magneton;Pokemon;Stage 1;Metal;90;Magnemite;Common
+a2a-055;Magnezone;Pokemon;Stage 2;Metal;140;Magneton;Rare
+a2a-056;Mawile;Pokemon;Basic;Metal;70;;Common
+a2a-057;Probopass ex;Pokemon;Stage 1;Metal;160;Nosepass;Rare EX
+a2a-058;Bronzor;Pokemon;Basic;Metal;60;;Common
+a2a-059;Bronzong;Pokemon;Stage 1;Metal;120;Bronzor;Uncommon
+a2a-060;Origin Forme Dialga;Pokemon;Basic;Metal;120;;Rare
+a2a-061;Giratina;Pokemon;Basic;Dragon;120;;Rare
+a2a-062;Eevee;Pokemon;Basic;Colorless;60;;Common
+a2a-063;Snorlax;Pokemon;Basic;Colorless;140;;Uncommon
+a2a-064;Hoothoot;Pokemon;Basic;Colorless;60;;Common
+a2a-065;Noctowl;Pokemon;Stage 1;Colorless;100;Hoothoot;Uncommon
+a2a-066;Starly;Pokemon;Basic;Colorless;60;;Common
+a2a-067;Staravia;Pokemon;Stage 1;Colorless;80;Starly;Common
+a2a-068;Staraptor;Pokemon;Stage 2;Colorless;150;Staravia;Uncommon
+a2a-069;Shaymin;Pokemon;Basic;Colorless;70;;Rare
+a2a-070;Arceus;Pokemon;Basic;Colorless;120;;Rare
+a2a-071;Arceus ex;Pokemon;Basic;Colorless;140;;Rare EX
+a2a-072;Irida;Trainer;Supporter;;0;;Uncommon
+a2a-073;Celestic Town Elder;Trainer;Supporter;;0;;Uncommon
+a2a-074;Barry;Trainer;Supporter;;0;;Uncommon
+a2a-075;Adaman;Trainer;Supporter;;0;;Uncommon
+a2a-076;Houndoom;Pokemon;Stage 1;Fire;100;Houndour;Full Art
+a2a-077;Marill;Pokemon;Basic;Water;60;;Full Art
+a2a-078;Unown;Pokemon;Basic;Psychic;60;;Full Art
+a2a-079;Sudowoodo;Pokemon;Basic;Fighting;80;;Full Art
+a2a-080;Magnemite;Pokemon;Basic;Metal;60;;Full Art
+a2a-081;Shaymin;Pokemon;Basic;Colorless;70;;Full Art
+a2a-082;Leafeon ex;Pokemon;Stage 1;Grass;140;Eevee;Full Art EX/Support
+a2a-083;Glaceon ex;Pokemon;Stage 1;Water;140;Eevee;Full Art EX/Support
+a2a-084;Garchomp ex;Pokemon;Stage 2;Fighting;170;Gabite;Full Art EX/Support
+a2a-085;Probopass ex;Pokemon;Stage 1;Metal;160;Nosepass;Full Art EX/Support
+a2a-086;Arceus ex;Pokemon;Basic;Colorless;140;;Full Art EX/Support
+a2a-087;Irida;Trainer;Supporter;;0;;Full Art EX/Support
+a2a-088;Celestic Town Elder;Trainer;Supporter;;0;;Full Art EX/Support
+a2a-089;Barry;Trainer;Supporter;;0;;Full Art EX/Support
+a2a-090;Adaman;Trainer;Supporter;;0;;Full Art EX/Support
+a2a-091;Leafeon ex;Pokemon;Stage 1;Grass;140;Eevee;Full Art EX/Support
+a2a-092;Glaceon ex;Pokemon;Stage 1;Water;140;Eevee;Full Art EX/Support
+a2a-093;Garchomp ex;Pokemon;Stage 2;Fighting;170;Gabite;Full Art EX/Support
+a2a-094;Probopass ex;Pokemon;Stage 1;Metal;160;Nosepass;Full Art EX/Support
+a2a-095;Arceus ex;Pokemon;Basic;Colorless;140;;Immersive
+a2a-096;Arceus ex;Pokemon;Basic;Colorless;140;;Gold Crown
+a2b-001;Weedle;Pokemon;Basic;Grass;50;;Common
+a2b-002;Kakuna;Pokemon;Stage 1;Grass;80;Weedle;Uncommon
+a2b-003;Beedrill ex;Pokemon;Stage 2;Grass;170;Kakuna;Rare EX
+a2b-004;Pinsir;Pokemon;Basic;Grass;90;;Common
+a2b-005;Sprigatito;Pokemon;Basic;Grass;60;;Common
+a2b-006;Floragato;Pokemon;Stage 1;Grass;90;Sprigatito;Uncommon
+a2b-007;Meowscarada;Pokemon;Stage 2;Grass;140;Floragato;Rare
+a2b-008;Charmander;Pokemon;Basic;Fire;60;;Common
+a2b-009;Charmeleon;Pokemon;Stage 1;Fire;90;Charmander;Uncommon
+a2b-010;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Rare EX
+a2b-011;Magmar;Pokemon;Basic;Fire;70;;Common
+a2b-012;Magmortar;Pokemon;Stage 1;Fire;120;Magmar;Rare
+a2b-013;Paldean Tauros;Pokemon;Basic;Fire;110;;Uncommon
+a2b-014;Tentacool;Pokemon;Basic;Water;70;;Common
+a2b-015;Tentacruel;Pokemon;Stage 1;Water;100;Tentacool;Uncommon
+a2b-016;Buizel;Pokemon;Basic;Water;70;;Common
+a2b-017;Floatzel;Pokemon;Stage 1;Water;90;Buizel;Uncommon
+a2b-018;Wiglett;Pokemon;Basic;Water;60;;Common
+a2b-019;Wugtrio ex;Pokemon;Stage 1;Water;140;Wiglett;Rare EX
+a2b-020;Dondozo;Pokemon;Basic;Water;120;;Rare
+a2b-021;Tatsugiri;Pokemon;Basic;Water;70;;Uncommon
+a2b-022;Pikachu ex;Pokemon;Basic;Lightning;120;;Rare EX
+a2b-023;Voltorb;Pokemon;Basic;Lightning;70;;Common
+a2b-024;Electrode;Pokemon;Stage 1;Lightning;90;Voltorb;Uncommon
+a2b-025;Pachirisu;Pokemon;Basic;Lightning;70;;Uncommon
+a2b-026;Pawmi;Pokemon;Basic;Lightning;60;;Common
+a2b-027;Pawmo;Pokemon;Stage 1;Lightning;90;Pawmi;Uncommon
+a2b-028;Pawmot;Pokemon;Stage 2;Lightning;140;Pawmo;Rare
+a2b-029;Abra;Pokemon;Basic;Psychic;60;;Common
+a2b-030;Kadabra;Pokemon;Stage 1;Psychic;80;Abra;Uncommon
+a2b-031;Alakazam;Pokemon;Stage 2;Psychic;130;Kadabra;Rare
+a2b-032;Mr. Mime;Pokemon;Basic;Psychic;90;;Common
+a2b-033;Drifloon;Pokemon;Basic;Psychic;60;;Common
+a2b-034;Drifblim;Pokemon;Stage 1;Psychic;90;Drifloon;Uncommon
+a2b-035;Giratina ex;Pokemon;Basic;Psychic;150;;Rare EX
+a2b-036;Gimmighoul;Pokemon;Basic;Psychic;60;;Common
+a2b-037;Machop;Pokemon;Basic;Fighting;60;;Common
+a2b-038;Machoke;Pokemon;Stage 1;Fighting;100;Machop;Common
+a2b-039;Machamp;Pokemon;Stage 2;Fighting;150;Machoke;Rare
+a2b-040;Hitmonlee;Pokemon;Basic;Fighting;80;;Common
+a2b-041;Hitmonchan;Pokemon;Basic;Fighting;90;;Common
+a2b-042;Riolu;Pokemon;Basic;Fighting;70;;Common
+a2b-043;Lucario ex;Pokemon;Stage 1;Fighting;150;Riolu;Rare EX
+a2b-044;Flamigo;Pokemon;Basic;Fighting;80;;Uncommon
+a2b-045;Ekans;Pokemon;Basic;Darkness;70;;Common
+a2b-046;Arbok;Pokemon;Stage 1;Darkness;110;Ekans;Uncommon
+a2b-047;Paldean Wooper;Pokemon;Basic;Darkness;50;;Common
+a2b-048;Paldean Clodsire ex;Pokemon;Stage 1;Darkness;160;Paldean Wooper;Rare EX
+a2b-049;Spiritomb;Pokemon;Basic;Darkness;80;;Uncommon
+a2b-050;Shroodle;Pokemon;Basic;Darkness;60;;Common
+a2b-051;Grafaiai;Pokemon;Stage 1;Darkness;90;Shroodle;Rare
+a2b-052;Tinkatink;Pokemon;Basic;Metal;60;;Common
+a2b-053;Tinkatuff;Pokemon;Stage 1;Metal;90;Tinkatink;Uncommon
+a2b-054;Tinkaton ex;Pokemon;Stage 2;Metal;170;Tinkatuff;Rare EX
+a2b-055;Varoom;Pokemon;Basic;Metal;70;;Common
+a2b-056;Revavroom;Pokemon;Stage 1;Metal;110;Varoom;Uncommon
+a2b-057;Gholdengo;Pokemon;Stage 1;Metal;120;Gimmighoul;Rare
+a2b-058;Rattata;Pokemon;Basic;Colorless;50;;Common
+a2b-059;Raticate;Pokemon;Stage 1;Colorless;90;Rattata;Common
+a2b-060;Jigglypuff;Pokemon;Basic;Colorless;60;;Common
+a2b-061;Wigglytuff;Pokemon;Stage 1;Colorless;100;Jigglypuff;Rare
+a2b-062;Lickitung;Pokemon;Basic;Colorless;80;;Common
+a2b-063;Lickilicky;Pokemon;Stage 1;Colorless;130;Lickitung;Common
+a2b-064;Bidoof;Pokemon;Basic;Colorless;70;;Common
+a2b-065;Bibarel ex;Pokemon;Stage 1;Colorless;160;Bidoof;Rare EX
+a2b-066;Buneary;Pokemon;Basic;Colorless;50;;Common
+a2b-067;Lopunny;Pokemon;Stage 1;Colorless;100;Buneary;Common
+a2b-068;Cyclizar;Pokemon;Basic;Colorless;80;;Uncommon
+a2b-069;Iono;Trainer;Supporter;;0;;Uncommon
+a2b-070;Pokémon Center Lady;Trainer;Supporter;;0;;Uncommon
+a2b-071;Red;Trainer;Supporter;;0;;Uncommon
+a2b-072;Team Rocket Grunt;Trainer;Supporter;;0;;Uncommon
+a2b-073;Meowscarada;Pokemon;Stage 2;Grass;140;Floragato;Full Art
+a2b-074;Buizel;Pokemon;Basic;Water;70;;Full Art
+a2b-075;Tatsugiri;Pokemon;Basic;Water;70;;Full Art
+a2b-076;Grafaiai;Pokemon;Stage 1;Darkness;90;Shroodle;Full Art
+a2b-077;Gholdengo;Pokemon;Stage 1;Metal;120;Gimmighoul;Full Art
+a2b-078;Wigglytuff;Pokemon;Stage 1;Colorless;100;Jigglypuff;Full Art
+a2b-079;Beedrill ex;Pokemon;Stage 2;Grass;170;Kakuna;Full Art EX/Support
+a2b-080;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Full Art EX/Support
+a2b-081;Wugtrio ex;Pokemon;Stage 1;Water;140;Wiglett;Full Art EX/Support
+a2b-082;Pikachu ex;Pokemon;Basic;Lightning;120;;Full Art EX/Support
+a2b-083;Giratina ex;Pokemon;Basic;Psychic;150;;Full Art EX/Support
+a2b-084;Lucario ex;Pokemon;Stage 1;Fighting;150;Riolu;Full Art EX/Support
+a2b-085;Paldean Clodsire ex;Pokemon;Stage 1;Darkness;160;Paldean Wooper;Full Art EX/Support
+a2b-086;Tinkaton ex;Pokemon;Stage 2;Metal;170;Tinkatuff;Full Art EX/Support
+a2b-087;Bibarel ex;Pokemon;Stage 1;Colorless;160;Bidoof;Full Art EX/Support
+a2b-088;Iono;Trainer;Supporter;;0;;Full Art EX/Support
+a2b-089;Pokémon Center Lady;Trainer;Supporter;;0;;Full Art EX/Support
+a2b-090;Red;Trainer;Supporter;;0;;Full Art EX/Support
+a2b-091;Team Rocket Grunt;Trainer;Supporter;;0;;Full Art EX/Support
+a2b-092;Pikachu ex;Pokemon;Basic;Lightning;120;;Full Art EX/Support
+a2b-093;Paldean Clodsire ex;Pokemon;Stage 1;Darkness;160;Paldean Wooper;Full Art EX/Support
+a2b-094;Tinkaton ex;Pokemon;Stage 2;Metal;170;Tinkatuff;Full Art EX/Support
+a2b-095;Bibarel ex;Pokemon;Stage 1;Colorless;160;Bidoof;Full Art EX/Support
+a2b-096;Giratina ex;Pokemon;Basic;Psychic;150;;Immersive
+a2b-097;Weedle;Pokemon;Basic;Grass;50;;Full Art
+a2b-098;Kakuna;Pokemon;Stage 1;Grass;80;Weedle;Full Art
+a2b-099;Charmander;Pokemon;Basic;Fire;60;;Full Art
+a2b-100;Charmeleon;Pokemon;Stage 1;Fire;90;Charmander;Full Art
+a2b-101;Wiglett;Pokemon;Basic;Water;60;;Full Art
+a2b-102;Dondozo;Pokemon;Basic;Water;120;;Full Art
+a2b-103;Pachirisu;Pokemon;Basic;Lightning;70;;Full Art
+a2b-104;Riolu;Pokemon;Basic;Fighting;70;;Full Art
+a2b-105;Varoom;Pokemon;Basic;Metal;70;;One shiny star
+a2b-106;Revavroom;Pokemon;Stage 1;Metal;110;Varoom;One shiny star
+a2b-107;Beedrill ex;Pokemon;Stage 2;Grass;170;Kakuna;Two shiny stars
+a2b-108;Charizard ex;Pokemon;Stage 2;Fire;180;Charmeleon;Two shiny stars
+a2b-109;Wugtrio ex;Pokemon;Stage 1;Water;140;Wiglett;Two shiny stars
+a2b-110;Lucario ex;Pokemon;Stage 1;Fighting;150;Riolu;Two shiny stars
+a2b-111;Poké Ball;Trainer;Item;;0;;Gold Crown
+a3-001;Exeggcute;Pokemon;Basic;Grass;60;;Common
+a3-002;Alolan Exeggutor;Pokemon;Stage 1;Grass;150;Exeggcute;Rare
+a3-003;Surskit;Pokemon;Basic;Grass;50;;Common
+a3-004;Masquerain;Pokemon;Stage 1;Grass;90;Surskit;Uncommon
+a3-005;Maractus;Pokemon;Basic;Grass;90;;Common
+a3-006;Karrablast;Pokemon;Basic;Grass;60;;Common
+a3-007;Phantump;Pokemon;Basic;Grass;60;;Common
+a3-008;Trevenant;Pokemon;Stage 1;Grass;130;Phantump;Uncommon
+a3-009;Rowlet;Pokemon;Basic;Grass;60;;Common
+a3-010;Rowlet;Pokemon;Basic;Grass;60;;Common
+a3-011;Dartrix;Pokemon;Stage 1;Grass;80;Rowlet;Uncommon
+a3-012;Decidueye ex;Pokemon;Stage 2;Grass;170;Dartrix;Rare EX
+a3-013;Grubbin;Pokemon;Basic;Grass;60;;Common
+a3-014;Fomantis;Pokemon;Basic;Grass;60;;Common
+a3-015;Lurantis;Pokemon;Stage 1;Grass;90;Fomantis;Uncommon
+a3-016;Morelull;Pokemon;Basic;Grass;60;;Common
+a3-017;Shiinotic;Pokemon;Stage 1;Grass;100;Morelull;Uncommon
+a3-018;Bounsweet;Pokemon;Basic;Grass;50;;Common
+a3-019;Steenee;Pokemon;Stage 1;Grass;80;Bounsweet;Uncommon
+a3-020;Tsareena;Pokemon;Stage 2;Grass;130;Steenee;Rare
+a3-021;Wimpod;Pokemon;Basic;Grass;70;;Common
+a3-022;Golisopod;Pokemon;Stage 1;Grass;120;Wimpod;Rare
+a3-023;Dhelmise ex;Pokemon;Basic;Grass;140;;Rare EX
+a3-024;Tapu Bulu;Pokemon;Basic;Grass;120;;Rare
+a3-025;Growlithe;Pokemon;Basic;Fire;70;;Common
+a3-026;Arcanine;Pokemon;Stage 1;Fire;130;Growlithe;Uncommon
+a3-027;Alolan Marowak;Pokemon;Stage 1;Fire;110;Cubone;Uncommon
+a3-028;Fletchinder;Pokemon;Stage 1;Fire;80;Fletchling;Common
+a3-029;Talonflame;Pokemon;Stage 2;Fire;120;Fletchinder;Rare
+a3-030;Litten;Pokemon;Basic;Fire;60;;Common
+a3-031;Litten;Pokemon;Basic;Fire;60;;Common
+a3-032;Torracat;Pokemon;Stage 1;Fire;80;Litten;Uncommon
+a3-033;Incineroar ex;Pokemon;Stage 2;Fire;180;Torracat;Rare EX
+a3-034;Oricorio;Pokemon;Basic;Fire;70;;Uncommon
+a3-035;Salandit;Pokemon;Basic;Fire;50;;Common
+a3-036;Salazzle;Pokemon;Stage 1;Fire;90;Salandit;Common
+a3-037;Turtonator;Pokemon;Basic;Fire;120;;Rare
+a3-038;Alolan Sandshrew;Pokemon;Basic;Water;60;;Common
+a3-039;Alolan Sandslash;Pokemon;Stage 1;Water;100;Alolan Sandshrew;Uncommon
+a3-040;Alolan Vulpix;Pokemon;Basic;Water;60;;Common
+a3-041;Alolan Ninetales;Pokemon;Stage 1;Water;110;Alolan Vulpix;Rare
+a3-042;Shellder;Pokemon;Basic;Water;70;;Common
+a3-043;Cloyster;Pokemon;Stage 1;Water;110;Shellder;Uncommon
+a3-044;Lapras;Pokemon;Basic;Water;110;;Uncommon
+a3-045;Popplio;Pokemon;Basic;Water;60;;Common
+a3-046;Popplio;Pokemon;Basic;Water;60;;Common
+a3-047;Brionne;Pokemon;Stage 1;Water;80;Popplio;Uncommon
+a3-048;Primarina;Pokemon;Stage 2;Water;140;Brionne;Rare
+a3-049;Crabominable ex;Pokemon;Stage 1;Water;160;Crabrawler;Rare EX
+a3-050;Wishiwashi;Pokemon;Basic;Water;30;;Common
+a3-051;Wishiwashi ex;Pokemon;Basic;Water;170;;Rare EX
+a3-052;Dewpider;Pokemon;Basic;Water;60;;Common
+a3-053;Araquanid;Pokemon;Stage 1;Water;110;Dewpider;Uncommon
+a3-054;Pyukumuku;Pokemon;Basic;Water;60;;Common
+a3-055;Bruxish;Pokemon;Basic;Water;80;;Common
+a3-056;Tapu Fini;Pokemon;Basic;Water;100;;Rare
+a3-057;Pikachu;Pokemon;Basic;Lightning;60;;Common
+a3-058;Alolan Raichu ex;Pokemon;Stage 1;Lightning;140;Pikachu;Rare EX
+a3-059;Alolan Geodude;Pokemon;Basic;Lightning;70;;Common
+a3-060;Alolan Graveler;Pokemon;Stage 1;Lightning;110;Alolan Geodude;Uncommon
+a3-061;Alolan Golem;Pokemon;Stage 2;Lightning;160;Alolan Graveler;Rare
+a3-062;Helioptile;Pokemon;Basic;Lightning;60;;Common
+a3-063;Heliolisk;Pokemon;Stage 1;Lightning;90;Helioptile;Common
+a3-064;Charjabug;Pokemon;Stage 1;Lightning;90;Grubbin;Uncommon
+a3-065;Vikavolt;Pokemon;Stage 2;Lightning;140;Charjabug;Rare
+a3-066;Oricorio;Pokemon;Basic;Lightning;70;;Rare
+a3-067;Togedemaru;Pokemon;Basic;Lightning;70;;Common
+a3-068;Tapu Koko;Pokemon;Basic;Lightning;100;;Rare
+a3-069;Mr. Mime;Pokemon;Basic;Psychic;80;;Uncommon
+a3-070;Sableye;Pokemon;Basic;Psychic;80;;Uncommon
+a3-071;Spoink;Pokemon;Basic;Psychic;60;;Common
+a3-072;Grumpig;Pokemon;Stage 1;Psychic;110;Spoink;Uncommon
+a3-073;Lunatone;Pokemon;Basic;Psychic;90;;Common
+a3-074;Shuppet;Pokemon;Basic;Psychic;60;;Common
+a3-075;Banette;Pokemon;Stage 1;Psychic;90;Shuppet;Common
+a3-076;Oricorio;Pokemon;Basic;Psychic;70;;Uncommon
+a3-077;Oricorio;Pokemon;Basic;Psychic;70;;Uncommon
+a3-078;Cutiefly;Pokemon;Basic;Psychic;30;;Common
+a3-079;Ribombee;Pokemon;Stage 1;Psychic;80;Cutiefly;Common
+a3-080;Comfey;Pokemon;Basic;Psychic;70;;Rare
+a3-081;Sandygast;Pokemon;Basic;Psychic;80;;Common
+a3-082;Palossand;Pokemon;Stage 1;Psychic;130;Sandygast;Rare
+a3-083;Mimikyu;Pokemon;Basic;Psychic;70;;Common
+a3-084;Tapu Lele;Pokemon;Basic;Psychic;90;;Rare
+a3-085;Cosmog;Pokemon;Basic;Psychic;60;;Common
+a3-086;Cosmoem;Pokemon;Stage 1;Psychic;100;Cosmog;Uncommon
+a3-087;Lunala ex;Pokemon;Stage 2;Psychic;180;Cosmoem;Rare EX
+a3-088;Necrozma;Pokemon;Basic;Psychic;120;;Rare
+a3-089;Cubone;Pokemon;Basic;Fighting;60;;Common
+a3-090;Makuhita;Pokemon;Basic;Fighting;70;;Common
+a3-091;Hariyama;Pokemon;Stage 1;Fighting;120;Makuhita;Uncommon
+a3-092;Solrock;Pokemon;Basic;Fighting;90;;Common
+a3-093;Drilbur;Pokemon;Basic;Fighting;60;;Common
+a3-094;Timburr;Pokemon;Basic;Fighting;60;;Common
+a3-095;Gurdurr;Pokemon;Stage 1;Fighting;90;Timburr;Uncommon
+a3-096;Conkeldurr;Pokemon;Stage 2;Fighting;150;Gurdurr;Rare
+a3-097;Crabrawler;Pokemon;Basic;Fighting;70;;Common
+a3-098;Rockruff;Pokemon;Basic;Fighting;60;;Common
+a3-099;Rockruff;Pokemon;Basic;Fighting;60;;Common
+a3-100;Lycanroc;Pokemon;Stage 1;Fighting;100;Rockruff;Rare
+a3-101;Lycanroc;Pokemon;Stage 1;Fighting;100;Rockruff;Rare
+a3-102;Mudbray;Pokemon;Basic;Fighting;80;;Common
+a3-103;Mudsdale;Pokemon;Stage 1;Fighting;140;Mudbray;Uncommon
+a3-104;Passimian ex;Pokemon;Basic;Fighting;130;;Rare EX
+a3-105;Minior;Pokemon;Basic;Fighting;80;;Uncommon
+a3-106;Alolan Rattata;Pokemon;Basic;Darkness;50;;Common
+a3-107;Alolan Raticate;Pokemon;Stage 1;Darkness;110;Alolan Rattata;Uncommon
+a3-108;Alolan Meowth;Pokemon;Basic;Darkness;60;;Common
+a3-109;Alolan Persian;Pokemon;Stage 1;Darkness;100;Alolan Meowth;Rare
+a3-110;Alolan Grimer;Pokemon;Basic;Darkness;70;;Common
+a3-111;Alolan Muk ex;Pokemon;Stage 1;Darkness;160;Alolan Grimer;Rare EX
+a3-112;Absol;Pokemon;Basic;Darkness;80;;Rare
+a3-113;Trubbish;Pokemon;Basic;Darkness;60;;Common
+a3-114;Garbodor;Pokemon;Stage 1;Darkness;120;Trubbish;Uncommon
+a3-115;Mareanie;Pokemon;Basic;Darkness;70;;Common
+a3-116;Toxapex;Pokemon;Stage 1;Darkness;110;Mareanie;Common
+a3-117;Alolan Diglett;Pokemon;Basic;Metal;50;;Common
+a3-118;Alolan Dugtrio;Pokemon;Stage 1;Metal;90;Alolan Diglett;Common
+a3-119;Excadrill;Pokemon;Stage 1;Metal;110;Drilbur;Uncommon
+a3-120;Escavalier;Pokemon;Stage 1;Metal;110;Karrablast;Uncommon
+a3-121;Klefki;Pokemon;Basic;Metal;70;;Rare
+a3-122;Solgaleo ex;Pokemon;Stage 2;Metal;180;Cosmoem;Rare EX
+a3-123;Magearna;Pokemon;Basic;Metal;90;;Rare
+a3-124;Drampa;Pokemon;Basic;Dragon;100;;Rare
+a3-125;Jangmo-o;Pokemon;Basic;Dragon;60;;Common
+a3-126;Hakamo-o;Pokemon;Stage 1;Dragon;100;Jangmo-o;Uncommon
+a3-127;Kommo-o;Pokemon;Stage 2;Dragon;150;Hakamo-o;Rare
+a3-128;Tauros;Pokemon;Basic;Colorless;100;;Uncommon
+a3-129;Skitty;Pokemon;Basic;Colorless;60;;Common
+a3-130;Delcatty;Pokemon;Stage 1;Colorless;90;Skitty;Uncommon
+a3-131;Fletchling;Pokemon;Basic;Colorless;50;;Common
+a3-132;Hawlucha;Pokemon;Basic;Colorless;80;;Uncommon
+a3-133;Pikipek;Pokemon;Basic;Colorless;50;;Common
+a3-134;Trumbeak;Pokemon;Stage 1;Colorless;80;Pikipek;Common
+a3-135;Toucannon;Pokemon;Stage 2;Colorless;140;Trumbeak;Uncommon
+a3-136;Yungoos;Pokemon;Basic;Colorless;60;;Common
+a3-137;Gumshoos;Pokemon;Stage 1;Colorless;100;Yungoos;Common
+a3-138;Stufful;Pokemon;Basic;Colorless;70;;Common
+a3-139;Bewear;Pokemon;Stage 1;Colorless;130;Stufful;Rare
+a3-140;Oranguru;Pokemon;Basic;Colorless;100;;Rare
+a3-141;Komala;Pokemon;Basic;Colorless;90;;Uncommon
+a3-142;Big Malasada;Trainer;Item;;0;;Uncommon
+a3-143;Fishing Net;Trainer;Item;;0;;Uncommon
+a3-144;Rare Candy;Trainer;Item;;0;;Uncommon
+a3-145;Rotom Dex;Trainer;Item;;0;;Uncommon
+a3-146;Poison Barb;Trainer;Tool;;0;;Uncommon
+a3-147;Leaf Cape;Trainer;Tool;;0;;Uncommon
+a3-148;Acerola;Trainer;Supporter;;0;;Uncommon
+a3-149;Ilima;Trainer;Supporter;;0;;Uncommon
+a3-150;Kiawe;Trainer;Supporter;;0;;Uncommon
+a3-151;Guzma;Trainer;Supporter;;0;;Uncommon
+a3-152;Lana;Trainer;Supporter;;0;;Uncommon
+a3-153;Sophocles;Trainer;Supporter;;0;;Uncommon
+a3-154;Mallow;Trainer;Supporter;;0;;Uncommon
+a3-155;Lillie;Trainer;Supporter;;0;;Uncommon
+a3-156;Alolan Exeggutor;Pokemon;Stage 1;Grass;150;Exeggcute;Full Art
+a3-157;Morelull;Pokemon;Basic;Grass;60;;Full Art
+a3-158;Tsareena;Pokemon;Stage 2;Grass;130;Steenee;Full Art
+a3-159;Tapu Bulu;Pokemon;Basic;Grass;120;;Full Art
+a3-160;Alolan Marowak;Pokemon;Stage 1;Fire;110;Cubone;Full Art
+a3-161;Turtonator;Pokemon;Basic;Fire;120;;Full Art
+a3-162;Alolan Vulpix;Pokemon;Basic;Water;60;;Full Art
+a3-163;Pyukumuku;Pokemon;Basic;Water;60;;Full Art
+a3-164;Tapu Fini;Pokemon;Basic;Water;100;;Full Art
+a3-165;Oricorio;Pokemon;Basic;Lightning;70;;Full Art
+a3-166;Tapu Koko;Pokemon;Basic;Lightning;100;;Full Art
+a3-167;Cutiefly;Pokemon;Basic;Psychic;30;;Full Art
+a3-168;Comfey;Pokemon;Basic;Psychic;70;;Full Art
+a3-169;Sandygast;Pokemon;Basic;Psychic;80;;Full Art
+a3-170;Tapu Lele;Pokemon;Basic;Psychic;90;;Full Art
+a3-171;Cosmog;Pokemon;Basic;Psychic;60;;Full Art
+a3-172;Rockruff;Pokemon;Basic;Fighting;60;;Full Art
+a3-173;Mudsdale;Pokemon;Stage 1;Fighting;140;Mudbray;Full Art
+a3-174;Minior;Pokemon;Basic;Fighting;80;;Full Art
+a3-175;Magearna;Pokemon;Basic;Metal;90;;Full Art
+a3-176;Drampa;Pokemon;Basic;Dragon;100;;Full Art
+a3-177;Pikipek;Pokemon;Basic;Colorless;50;;Full Art
+a3-178;Bewear;Pokemon;Stage 1;Colorless;130;Stufful;Full Art
+a3-179;Komala;Pokemon;Basic;Colorless;90;;Full Art
+a3-180;Decidueye ex;Pokemon;Stage 2;Grass;170;Dartrix;Full Art EX/Support
+a3-181;Dhelmise ex;Pokemon;Basic;Grass;140;;Full Art EX/Support
+a3-182;Incineroar ex;Pokemon;Stage 2;Fire;180;Torracat;Full Art EX/Support
+a3-183;Crabominable ex;Pokemon;Stage 1;Water;160;Crabrawler;Full Art EX/Support
+a3-184;Wishiwashi ex;Pokemon;Basic;Water;170;;Full Art EX/Support
+a3-185;Alolan Raichu ex;Pokemon;Stage 1;Lightning;140;Pikachu;Full Art EX/Support
+a3-186;Lunala ex;Pokemon;Stage 2;Psychic;180;Cosmoem;Full Art EX/Support
+a3-187;Passimian ex;Pokemon;Basic;Fighting;130;;Full Art EX/Support
+a3-188;Alolan Muk ex;Pokemon;Stage 1;Darkness;160;Alolan Grimer;Full Art EX/Support
+a3-189;Solgaleo ex;Pokemon;Stage 2;Metal;180;Cosmoem;Full Art EX/Support
+a3-190;Acerola;Trainer;Supporter;;0;;Full Art EX/Support
+a3-191;Ilima;Trainer;Supporter;;0;;Full Art EX/Support
+a3-192;Kiawe;Trainer;Supporter;;0;;Full Art EX/Support
+a3-193;Guzma;Trainer;Supporter;;0;;Full Art EX/Support
+a3-194;Lana;Trainer;Supporter;;0;;Full Art EX/Support
+a3-195;Sophocles;Trainer;Supporter;;0;;Full Art EX/Support
+a3-196;Mallow;Trainer;Supporter;;0;;Full Art EX/Support
+a3-197;Lillie;Trainer;Supporter;;0;;Full Art EX/Support
+a3-198;Decidueye ex;Pokemon;Stage 2;Grass;170;Dartrix;Full Art EX/Support
+a3-199;Dhelmise ex;Pokemon;Basic;Grass;140;;Full Art EX/Support
+a3-200;Incineroar ex;Pokemon;Stage 2;Fire;180;Torracat;Full Art EX/Support
+a3-201;Crabominable ex;Pokemon;Stage 1;Water;160;Crabrawler;Full Art EX/Support
+a3-202;Wishiwashi ex;Pokemon;Basic;Water;170;;Full Art EX/Support
+a3-203;Alolan Raichu ex;Pokemon;Stage 1;Lightning;140;Pikachu;Full Art EX/Support
+a3-204;Lunala ex;Pokemon;Stage 2;Psychic;180;Cosmoem;Full Art EX/Support
+a3-205;Passimian ex;Pokemon;Basic;Fighting;130;;Full Art EX/Support
+a3-206;Alolan Muk ex;Pokemon;Stage 1;Darkness;160;Alolan Grimer;Full Art EX/Support
+a3-207;Solgaleo ex;Pokemon;Stage 2;Metal;180;Cosmoem;Full Art EX/Support
+a3-208;Guzma;Trainer;Supporter;;0;;Immersive
+a3-209;Lillie;Trainer;Supporter;;0;;Immersive
+a3-210;Bulbasaur;Pokemon;Basic;Grass;70;;Full Art
+a3-211;Ivysaur;Pokemon;Stage 1;Grass;90;Bulbasaur;Full Art
+a3-212;Venusaur;Pokemon;Stage 2;Grass;160;Ivysaur;Full Art
+a3-213;Exeggcute;Pokemon;Basic;Grass;60;;Full Art
+a3-214;Exeggutor;Pokemon;Stage 1;Grass;130;Exeggcute;Full Art
+a3-215;Squirtle;Pokemon;Basic;Water;60;;Full Art
+a3-216;Wartortle;Pokemon;Stage 1;Water;80;Squirtle;Full Art
+a3-217;Blastoise;Pokemon;Stage 2;Water;150;Wartortle;Full Art
+a3-218;Staryu;Pokemon;Basic;Water;50;;Full Art
+a3-219;Starmie;Pokemon;Stage 1;Water;90;Staryu;Full Art
+a3-220;Gastly;Pokemon;Basic;Psychic;50;;Full Art
+a3-221;Haunter;Pokemon;Stage 1;Psychic;80;Gastly;Full Art
+a3-222;Gengar;Pokemon;Stage 2;Psychic;130;Haunter;Full Art
+a3-223;Machop;Pokemon;Basic;Fighting;70;;Full Art
+a3-224;Machoke;Pokemon;Stage 1;Fighting;100;Machop;Full Art
+a3-225;Machamp;Pokemon;Stage 2;Fighting;150;Machoke;Full Art
+a3-226;Cubone;Pokemon;Basic;Fighting;60;;Full Art
+a3-227;Marowak;Pokemon;Stage 1;Fighting;100;Cubone;Full Art
+a3-228;Jigglypuff;Pokemon;Basic;Colorless;60;;One shiny star
+a3-229;Wigglytuff;Pokemon;Stage 1;Colorless;100;Jigglypuff;One shiny star
+a3-230;Venusaur ex;Pokemon;Stage 2;Grass;190;Ivysaur;Two shiny star
+a3-231;Exeggutor ex;Pokemon;Stage 1;Grass;160;Exeggcute;Two shiny star
+a3-232;Blastoise ex;Pokemon;Stage 2;Water;180;Wartortle;Two shiny star
+a3-233;Starmie ex;Pokemon;Stage 1;Water;130;Staryu;Two shiny star
+a3-234;Gengar ex;Pokemon;Stage 2;Psychic;170;Haunter;Two shiny star
+a3-235;Machamp ex;Pokemon;Stage 2;Fighting;180;Machoke;Two shiny star
+a3-236;Marowak ex;Pokemon;Stage 1;Fighting;140;Cubone;Two shiny star
+a3-237;Wigglytuff ex;Pokemon;Stage 1;Colorless;140;Jigglypuff;Two shiny star
+a3-238;Lunala ex;Pokemon;Stage 2;Psychic;180;Cosmoem;Gold Crown
+a3-239;Solgaleo ex;Pokemon;Stage 2;Metal;180;Cosmoem;Gold Crown
+pa-001;Potion;Trainer;Item;;0;;
+pa-002;X Speed;Trainer;Item;;0;;
+pa-003;Hand Scope;Trainer;Item;;0;;
+pa-004;Pokédex;Trainer;Item;;0;;
+pa-005;Poké Ball;Trainer;Item;;0;;
+pa-006;Red Card;Trainer;Item;;0;;
+pa-007;Professor's Research;Trainer;Supporter;;0;;
+pa-008;Pokédex;Trainer;Item;;0;;
+pa-009;Pikachu;Pokemon;Basic;Lightning;60;;
+pa-010;Mewtwo;Pokemon;Basic;Psychic;120;;
+pa-011;Chansey;Pokemon;Basic;Colorless;120;;
+pa-012;Meowth;Pokemon;Basic;Colorless;60;;
+pa-013;Butterfree;Pokemon;Stage 2;Grass;120;Metapod;
+pa-014;Lapras ex;Pokemon;Basic;Water;140;;
+pa-015;Pikachu;Pokemon;Basic;Lightning;60;;
+pa-016;Clefairy;Pokemon;Basic;Psychic;60;;
+pa-017;Mankey;Pokemon;Basic;Fighting;50;;
+pa-018;Venusaur;Pokemon;Stage 2;Grass;160;Ivysaur;
+pa-019;Greninja;Pokemon;Stage 2;Water;120;Frogadier;
+pa-020;Haunter;Pokemon;Stage 1;Psychic;70;Gastly;
+pa-021;Onix;Pokemon;Basic;Fighting;110;;
+pa-022;Jigglypuff;Pokemon;Basic;Colorless;60;;
+pa-023;Bulbasaur;Pokemon;Basic;Grass;70;;
+pa-024;Magnemite;Pokemon;Basic;Lightning;60;;
+pa-025;Moltres ex;Pokemon;Basic;Fire;140;;
+pa-026;Pikachu;Pokemon;Basic;Lightning;60;;
+pa-027;Snivy;Pokemon;Basic;Grass;60;;
+pa-028;Volcarona;Pokemon;Stage 1;Fire;120;Larvesta;
+pa-029;Blastoise;Pokemon;Stage 2;Water;150;Wartortle;
+pa-030;Eevee;Pokemon;Basic;Colorless;60;;
+pa-031;Cinccino;Pokemon;Stage 1;Colorless;90;Minccino;
+pa-032;Charmander;Pokemon;Basic;Fire;60;;
+pa-033;Squirtle;Pokemon;Basic;Water;60;;
+pa-034;Piplup;Pokemon;Basic;Water;60;;
+pa-035;Turtwig;Pokemon;Basic;Grass;80;;
+pa-036;Electivire;Pokemon;Stage 1;Lightning;120;Electabuzz;
+pa-037;Cresselia ex;Pokemon;Basic;Psychic;140;;
+pa-038;Misdreavus;Pokemon;Basic;Psychic;60;;
+pa-039;Skarmory;Pokemon;Basic;Metal;80;;
+pa-040;Chimchar;Pokemon;Basic;Fire;60;;
+pa-041;Togepi;Pokemon;Basic;Psychic;50;;
+pa-042;Darkrai ex;Pokemon;Basic;Darkness;140;;
+pa-043;Cherrim;Pokemon;Stage 1;Grass;80;Cherubi;
+pa-044;Raichu;Pokemon;Stage 1;Lightning;90;Pikachu;
+pa-045;Nosepass;Pokemon;Basic;Fighting;60;;
+pa-046;Gible;Pokemon;Basic;Fighting;60;;
+pa-047;Staraptor;Pokemon;Stage 2;Colorless;140;Staravia;
+pa-048;Manaphy;Pokemon;Basic;Water;50;;
+pa-049;Snorlax;Pokemon;Basic;Colorless;140;;
+pa-050;Mewtwo ex;Pokemon;Basic;Psychic;150;;
+pa-051;Cyclizar;Pokemon;Basic;Colorless;80;;
+pa-052;Sprigatito;Pokemon;Basic;Grass;60;;
+pa-053;Floatzel;Pokemon;Stage 1;Water;100;Buizel;
+pa-054;Pawmot;Pokemon;Stage 2;Lightning;140;Pawmo;
+pa-055;Machamp;Pokemon;Stage 2;Fighting;150;Machoke;
+pa-056;Ekans;Pokemon;Basic;Darkness;60;;
+pa-057;Bidoof;Pokemon;Basic;Colorless;70;;
+pa-058;Pachirisu;Pokemon;Basic;Lightning;70;;
+pa-059;Riolu;Pokemon;Basic;Fighting;70;;
+pa-060;Exeggcute;Pokemon;Basic;Grass;50;;
+pa-061;Froakie;Pokemon;Basic;Water;60;;
+pa-062;Farfetch'd;Pokemon;Basic;Colorless;60;;
+pa-063;Rayquaza;Pokemon;Basic;Colorless;100;;
+pa-064;Rayquaza ex;Pokemon;Basic;Colorless;140;;
+pa-065;Rayquaza ex;Pokemon;Basic;Colorless;140;;
+pa-066;Mimikyu;Pokemon;Basic;Psychic;70;;
+pa-067;Cosmog;Pokemon;Basic;Psychic;60;;
+pa-068;Lycanroc;Pokemon;Stage 1;Fighting;100;Rockruff;
+pa-069;Alolan Exeggutor;Pokemon;Stage 1;Grass;150;Exeggcute;
+pa-070;Alolan Ninetales;Pokemon;Stage 1;Water;110;Alolan Vulpix;
+pa-071;Crabrawler;Pokemon;Basic;Fighting;70;;
+pa-072;Alolan Grimer;Pokemon;Basic;Darkness;70;;
+pa-073;Toucannon;Pokemon;Stage 2;Colorless;140;Trumbeak;
