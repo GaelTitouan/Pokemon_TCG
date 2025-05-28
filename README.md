@@ -74,4 +74,7 @@ Ce travail permet une **exploitation automatisée** et structurée des données 
 
 ## 👤 Auteur
 
-- **Titouan** – Alternant en Sciences des Données (2025)
+- **Titouan Le-Gall**
+- **Gaël Hellegouarch**
+- **Lukas Le Plaire**
+- **Thomas Defoulounoux** 
