@@ -53,6 +53,8 @@ Le fichier CSV final contient les colonnes suivantes :
 - `id`, `name`, `type`, `subtype`, `element`, `health`, `evolvesFrom`, `rarity`
 
 ---
+# PostGreSQL
+
 
 # Data-Viz
 La Data vizualisation a été réaliser sur Rstudio, elle contient 4 pages : 
