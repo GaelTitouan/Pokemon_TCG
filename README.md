@@ -63,6 +63,8 @@ La Data vizualisation a été réaliser sur Rstudio, elle contient 4 pages :
   - Decks
   - Statistiques
 
+Nous avons décider de crée l'application en anglais, car les données des cartes sont en anglais et l'appli a plutot pour but d'être utilisée à l'international
+
 ## ✅ Résultat final
 
 Au terme de l'exécution, les fichiers `.csv` générés permettent d’analyser :
