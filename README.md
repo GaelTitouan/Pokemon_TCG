@@ -1,6 +1,6 @@
 # Projet SAE 601 – Traitement de Données du Jeu Pokémon TCG
 
-Ce projet a été réalisé dans le cadre de la SAE 601. Il consiste à exploiter des données issues du jeu de cartes **Pokémon TCG**, fournies au format JSON, pour les transformer et les centraliser dans des fichiers CSV exploitables.
+Ce projet a été réalisé dans le cadre de la SAE 601. Il consiste à exploiter des données issues de tournois réalisés du jeu de cartes **Pokémon TCG Pocket**, fournies au format JSON, pour les transformer et les centraliser dans des fichiers CSV exploitables.
 
 
 ## ▶️ Exécution des scripts
