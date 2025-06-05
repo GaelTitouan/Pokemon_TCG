@@ -10,332 +10,219 @@ import re
 base_url = "https://play.limitlesstcg.com"
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
 
+# Sanitize Windows-reserved file/folder names
+def sanitize_path_component(name):
+    reserved_names = {"con", "prn", "aux", "nul", "com1", "lpt1"}
+    name = name.lower()
+    return "reserved" if name in reserved_names else name
+
 # Dataclasses used for json generation
 @dataclass
 class DeckListItem:
-  type:str
-  url: str
-  name: str
-  count: int
+    type: str
+    url: str
+    name: str
+    count: int
 
 @dataclass
 class Player:
-  id: str
-  name: str
-  placing: str
-  country: str
-  decklist: list[DeckListItem]
+    id: str
+    name: str
+    placing: str
+    country: str
+    decklist: list[DeckListItem]
 
 @dataclass
 class MatchResult:
-  player_id: str
-  score: int
+    player_id: str
+    score: int
 
 @dataclass
 class Match:
-  match_results: list[MatchResult]
+    match_results: list[MatchResult]
 
 @dataclass
 class Tournament:
-  id: str
-  name: str
-  date: str
-  organizer: str
-  format: str
-  nb_players: str
-  players: list[Player]
-  matches:list[Match]
+    id: str
+    name: str
+    date: str
+    organizer: str
+    format: str
+    nb_players: str
+    players: list[Player]
+    matches: list[Match]
 
-# Extract the tr tags from a table, omiting the first header
+# Extract the tr tags from a table, omitting the first header
 def extract_trs(soup: BeautifulSoup, table_class: str):
-  trs = soup.find(class_=table_class).find_all("tr")
-  trs.pop(0) # Remove header
-  return trs
+    trs = soup.find(class_=table_class).find_all("tr")
+    trs.pop(0)  # Remove header
+    return trs
 
-# Urls helpers
+# Url helpers
 def construct_standings_url(tournament_id: str):
-  return f"/tournament/{tournament_id}/standings?players"
+    return f"/tournament/{tournament_id}/standings?players"
 
 def construct_pairings_url(tournament_id: str):
-  return f"/tournament/{tournament_id}/pairings"
+    return f"/tournament/{tournament_id}/pairings"
 
 def construct_decklist_url(tournament_id: str, player_id: str):
-  return f"/tournament/{tournament_id}/player/{player_id}/decklist"
-
-# Extract the previous pairing pages urls
-# This function assumes that the provided pairings page is the last of the tournament
-def extract_previous_pairings_urls(pairings: BeautifulSoup):
-  pairing_urls = pairings.find(class_="mini-nav")
-  
-  # If there is only one round, return empty array
-  if pairing_urls is None:
-    return []
-  
-  pairing_urls = pairing_urls.find_all("a")
-  
-  # Pop the last item in array because it's the current page
-  pairing_urls.pop(-1)
-
-  pairing_urls = [a.attrs["href"] for a in pairing_urls]
-  
-  return pairing_urls
+    return f"/tournament/{tournament_id}/player/{player_id}/decklist"
 
 # Check if the pairing page is a bracket (single elimination)
 def is_bracket_pairing(pairings: BeautifulSoup):
-  return pairings.find("div", class_="live-bracket") is not None
+    return pairings.find("div", class_="live-bracket") is not None
 
 # Check if the pairing page is a table (swiss rounds)
 regex_tournament_id = re.compile(r'[a-zA-Z0-9_\-]*')
 def is_table_pairing(pairings: BeautifulSoup):
-  pairings = pairings.find("div", class_="pairings")
-  if pairings is not None:
-    table = pairings.find("table", {'data-tournament': regex_tournament_id})
-    if table is not None:
-      return True
+    pairings = pairings.find("div", class_="pairings")
+    if pairings is not None:
+        table = pairings.find("table", {'data-tournament': regex_tournament_id})
+        return table is not None
+    return False
 
-  return False
-
-# Return a list of matches from a bracket style pairing page
+# Return a list of matches from a bracket-style pairing page
 def extract_matches_from_bracket_pairings(pairings: BeautifulSoup):
-  
-  matches = []
-  
-  matches_div = pairings.find("div", class_="live-bracket").find_all("div", class_="bracket-match")
-  for match in matches_div:
-    
-    # We don't extract the match if one of the players is a bye
-    if match.find("a", class_="bye") is not None:
-      continue
-
-    players_div = match.find_all("div", class_="live-bracket-player")
-    match_results = []
-    for index in range(len(players_div)):
-      player = players_div[index]
-      match_results.append(MatchResult(
-        player.attrs["data-id"],
-        int(player.find("div", class_="score").attrs["data-score"])
-      ))
-
-    matches.append(Match(match_results))
-  
-  return matches
-
-# Return a list of matches from a table style pairing page
+    matches = []
+    matches_div = pairings.find("div", class_="live-bracket").find_all("div", class_="bracket-match")
+    for match in matches_div:
+        if match.find("a", class_="bye") is not None:
+            continue
+        players_div = match.find_all("div", class_="live-bracket-player")
+        match_results = []
+        for index in range(len(players_div)):
+            player = players_div[index]
+            match_results.append(MatchResult(
+                player.attrs["data-id"],
+                int(player.find("div", class_="score").attrs["data-score"])
+            ))
+        matches.append(Match(match_results))
+    return matches
+# Return a list of matches from a table-style pairing page
 def extract_matches_from_table_pairings(pairings: BeautifulSoup):
-  
-  matches = []
-  
-  matches_tr = pairings.find_all("tr", {'data-completed': '1'})
+    matches = []
+    rows = pairings.find("div", class_="pairings").find("table").find_all("tr")[1:]  # Skip header
+    for row in rows:
+        match_results = []
+        for td in row.find_all("td")[1:3]:  # Columns 1 and 2
+            score = td.find("span", class_="match-score")
+            score = int(score.text) if score else 0
+            player_id = td.find("a")["href"].split("/")[-1]
+            match_results.append(MatchResult(player_id, score))
+        matches.append(Match(match_results))
+    return matches
 
-  for match in matches_tr:
-    p1 = match.find("td", class_="p1")
-    p2 = match.find("td", class_="p2")
+# Extracts all card entries from the decklist table
+def extract_cards(decklist: BeautifulSoup, category: str):
+    table = decklist.find("h2", string=category)
+    if not table:
+        return []
 
-    if (p1 is not None and p2 is not None):
-      matches.append(Match([
-        MatchResult(p1.attrs["data-id"], int(p1.attrs["data-count"])),
-        MatchResult(p2.attrs["data-id"], int(p2.attrs["data-count"]))
-      ]))
+    table = table.find_next("table")
+    cards = []
+    for row in table.find_all("tr"):
+        columns = row.find_all("td")
+        count = int(columns[0].text.strip())
+        name = columns[1].text.strip()
+        url = base_url + columns[1].find("a")["href"]
+        cards.append(DeckListItem(category, url, name, count))
+    return cards
 
-  return matches
+# Load tournament decklists and matches
+async def fetch_tournament_data(session, tournament_id: str) -> Tournament:
+    async with session.get(f"{base_url}/tournament/{tournament_id}") as response:
+        soup = BeautifulSoup(await response.text(), "html.parser")
+    name = soup.find("h1", class_="tournament-title").text.strip()
+    info = soup.find("div", class_="tournament-meta").find_all("span")
+    date = info[0].text.strip()
+    organizer = info[1].text.strip()
+    format = info[2].text.strip()
+    nb_players = soup.find("span", class_="player-count").text.strip()
 
-# Return a list of DeckListItems from a player decklist page
-regex_card_url = re.compile(r'pocket\.limitlesstcg\.com/cards/.*')
-def extract_decklist(decklist: BeautifulSoup) -> list[DeckListItem]:
-  decklist_div = decklist.find("div", class_="decklist")
-  cards = []
-  if decklist_div is not None:
-    cards_a = decklist_div.find_all("a", {'href': regex_card_url})
-    for card in cards_a:
-      cards.append(DeckListItem(
-        card.parent.parent.find("div", class_="heading").text.split(" ")[0],
-        card.attrs["href"],
-        card.text[2:],
-        int(card.text[0])
-      ))
+    standings_url = base_url + construct_standings_url(tournament_id)
+    async with session.get(standings_url) as standings_response:
+        standings_soup = BeautifulSoup(await standings_response.text(), "html.parser")
 
-  return cards
+    players = []
+    rows = extract_trs(standings_soup, "standings")
+    for row in rows:
+        cols = row.find_all("td")
+        placing = cols[0].text.strip()
+        player_id = cols[1].find("a")["href"].split("/")[-1]
+        name = cols[1].text.strip()
+        country = cols[2].text.strip()
 
-# Extract a beautiful soup object from a url
-async def async_soup_from_url(session: aiohttp.ClientSession, sem: asyncio.Semaphore, url: str, use_cache: bool = True):
-  
-  if url is None:
-    return None
-  
-  # Construct cache filename
-  cache_filename = "cache" + url
-  cache_filename = ''.join(x for x in cache_filename if (x == "/" or x.isalnum()))
-  cache_filename = f"{cache_filename}.html"
-  
-  html = ""
+        decklist_url = base_url + construct_decklist_url(tournament_id, player_id)
+        async with session.get(decklist_url) as deck_response:
+            deck_soup = BeautifulSoup(await deck_response.text(), "html.parser")
 
-  if use_cache and os.path.isfile(cache_filename):
-    # print(f"url {url} is in cache")
-    async with sem:
-      async with aiofile.async_open(cache_filename, "r") as file:
-        html = await file.read()
-  else:
-    # print(f"url {url} is not in cache, requesting from source")
-    async with session.get(url) as resp:
-      html = await resp.text()
+        cards = (
+            extract_cards(deck_soup, "Pokémon") +
+            extract_cards(deck_soup, "Trainer") +
+            extract_cards(deck_soup, "Energy")
+        )
 
-    directory = os.path.dirname(cache_filename)
-    if not os.path.exists(directory):
-      os.makedirs(directory)
-    
-    async with sem:
-      async with aiofile.async_open(cache_filename, "w") as file:
-        await file.write(html)
+        players.append(Player(player_id, name, placing, country, cards))
 
-  return BeautifulSoup(html, 'html.parser')
+    pairings_url = base_url + construct_pairings_url(tournament_id)
+    async with session.get(pairings_url) as pairing_response:
+        pairing_soup = BeautifulSoup(await pairing_response.text(), "html.parser")
 
-async def extract_players(
-  session: aiohttp.ClientSession,
-  sem: asyncio.Semaphore,
-  standings_page: BeautifulSoup,
-  tournament_id: str) -> list[Player]:
-
-  players = []
-  player_trs = extract_trs(standings_page, "striped")
-  player_ids = [player_tr.find("a", {'href': regex_player_id}).attrs["href"].split('/')[4] for player_tr in player_trs]
-  has_decklist = [player_tr.find("a", {'href': regex_decklist_url}) is not None for player_tr in player_trs]
-  player_names=[player_tr.attrs['data-name'] for player_tr in player_trs]
-  player_placings=[player_tr.attrs.get("data-placing", -1) for player_tr in player_trs]
-  player_countries=[player_tr.attrs.get("data-country", None) for player_tr in player_trs]
-
-  decklist_urls = []
-  for i in range(len(player_ids)):
-    decklist_urls.append(construct_decklist_url(tournament_id, player_ids[i]) if has_decklist[i] else None)
-
-  player_decklists = await asyncio.gather(*[async_soup_from_url(session, sem, url, True) for url in decklist_urls])
-
-  players = []
-  for i in range(len(player_ids)):
-    if player_decklists[i] is None:
-      continue
-
-    players.append(Player(
-      player_ids[i],
-      player_names[i],
-      player_placings[i],
-      player_countries[i],
-      extract_decklist(player_decklists[i])
-    ))
-
-  return players
-
-async def extract_matches(
-  session: aiohttp.ClientSession,
-  sem: asyncio.Semaphore,
-  tournament_id: str) -> list[Match]:
-
-  matches = []
-  last_pairings = await async_soup_from_url(session, sem, construct_pairings_url(tournament_id))
-  previous_pairings_urls = extract_previous_pairings_urls(last_pairings)
-  pairings = await asyncio.gather(*[async_soup_from_url(session, sem, url) for url in previous_pairings_urls])
-  pairings.append(last_pairings)
-
-  for pairing in pairings:
-    if is_bracket_pairing(pairing):
-      matches = matches + extract_matches_from_bracket_pairings(pairing)
-    elif is_table_pairing(pairing):
-      matches = matches + extract_matches_from_table_pairings(pairing)
+    if is_bracket_pairing(pairing_soup):
+        matches = extract_matches_from_bracket_pairings(pairing_soup)
+    elif is_table_pairing(pairing_soup):
+        matches = extract_matches_from_table_pairings(pairing_soup)
     else:
-      raise Exception("Unrecognized pairing type")
-    
-  return matches
+        matches = []
 
-regex_player_id = re.compile(r'/tournament/[a-zA-Z0-9_\-]*/player/[a-zA-Z0-9_]*')
-regex_decklist_url = re.compile(r'/tournament/[a-zA-Z0-9_\-]*/player/[a-zA-Z0-9_]*/decklist')
-async def handle_tournament_standings_page(
-    session: aiohttp.ClientSession,
-    sem: asyncio.Semaphore,
-    standings_page: BeautifulSoup,
-    tournament_id: str, 
-    tournament_name: str,
-    tournament_date: str,
-    tournament_organizer: str,
-    tournament_format: str,
-    tournament_nb_players: int):
-  
-  output_file = f"output/{tournament_id}.json"
-  
-  print(f"extracting tournament {tournament_id}", end="... ")
+    return Tournament(tournament_id, name, date, organizer, format, nb_players, players, matches)
+# Write the tournament data to a JSON file
+def write_json(tournament: Tournament, out_path: Path):
+    data = tournament.model_dump(mode="json")
+    json_data = json.dumps(data, indent=4)
+    out_path.write_text(json_data, encoding="utf-8")
 
-  # If the json file for this tournament already exists, we don't recreate it
-  if os.path.isfile(output_file):
-    print("skipping because tournament is already in output")
-    return
-  else:
-    directory = os.path.dirname(output_file)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+# Sanitize a string to be a valid filename
+def sanitize_path_component(s: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", s)
 
-  players = await extract_players(session, sem, standings_page, tournament_id)
-  if len(players) == 0:
-    print("skipping because no decklist was detected")
-    return
-  
-  nb_decklists = 0
-  for player in players:
-    if len(player.decklist) > 0:
-      nb_decklists += 1
-  
-  matches = await extract_matches(session, sem, tournament_id)
+# Scrape a single tournament and write it to JSON
+async def scrape_tournament(tournament_id: str, out_dir: Path, proxy: Optional[str] = None):
+    connector = TCPConnector(ssl=False)
+    timeout = ClientTimeout(total=60)
 
-  tournament = Tournament(
-    tournament_id,
-    tournament_name,
-    tournament_date,
-    tournament_organizer,
-    tournament_format,
-    tournament_nb_players,
-    players,
-    matches
-  )
+    async with aiohttp.ClientSession(
+        connector=connector,
+        timeout=timeout,
+        trust_env=True,  # Use system proxy settings (needed for some environments)
+    ) as session:
+        if proxy:
+            session._default_headers["Proxy"] = proxy  # Explicit proxy, not ideal
+        try:
+            tournament = await fetch_tournament_data(session, tournament_id)
+            safe_name = sanitize_path_component(tournament.name)
+            filename = f"{safe_name}_{tournament.id}.json"
+            out_path = out_dir / filename
+            write_json(tournament, out_path)
+            print(f"Saved: {out_path}")
+        except Exception as e:
+            print(f"Error scraping tournament {tournament_id}: {e}")
 
-  print(f"{len(players)} players, {nb_decklists} decklists, {len(matches)} matches")
-  
-  with open(output_file, "w") as f:
-    json.dump(asdict(tournament), f, indent=2)
-
-first_tournament_page = "/tournaments/completed?game=POCKET&format=STANDARD&platform=all&type=online&time=all"
-regex_standings_url = re.compile(r'/tournament/[a-zA-Z0-9_\-]*/standings')
-async def handle_tournament_list_page(session: aiohttp.ClientSession, sem: asyncio.Semaphore, url: str):
-  soup = await async_soup_from_url(session, sem, url, False)
-  
-  current_page = int(soup.find("ul", class_="pagination").attrs["data-current"])
-  max_page = int(soup.find("ul", class_="pagination").attrs["data-max"])
-  
-  print(f"extracting completed tournaments page {current_page}")
-
-  tournament_trs = extract_trs(soup, "completed-tournaments")
-  tournament_ids = [tournament_tr.find("a", {'href': regex_standings_url}).attrs["href"].split('/')[2] for tournament_tr in tournament_trs]
-  tournament_names=[tournament_tr.attrs['data-name']for tournament_tr in tournament_trs]
-  tournament_dates=[tournament_tr.attrs['data-date']for tournament_tr in tournament_trs]
-  tournament_organizers=[tournament_tr.attrs['data-organizer']for tournament_tr in tournament_trs]
-  tournament_formats=[tournament_tr.attrs['data-format']for tournament_tr in tournament_trs]
-  tournament_nb_players=[tournament_tr.attrs['data-players']for tournament_tr in tournament_trs]
-  
-  standings_urls = [construct_standings_url(tournament_id) for tournament_id in tournament_ids]
-  
-  # Get all standings page asynchroneously
-  standings = await asyncio.gather(*[async_soup_from_url(session, sem, url) for url in standings_urls])
-
-  for i in range(len(tournament_ids)):
-    await handle_tournament_standings_page(session, sem, standings[i], tournament_ids[i], tournament_names[i], tournament_dates[i], tournament_organizers[i], tournament_formats[i], tournament_nb_players[i])
-
-  if current_page < max_page:
-    await handle_tournament_list_page(session, sem, f"{first_tournament_page}&page={current_page+1}")
-
+# Main async function
 async def main():
-  # Limit number of concurent http calls
-  connector = aiohttp.TCPConnector(limit=20)
+    connector = aiohttp.TCPConnector(limit=20)
+    sem = asyncio.Semaphore(50)
 
-  # Limit number of concurent open files
-  sem = asyncio.Semaphore(50)
+    async with aiohttp.ClientSession(
+        base_url=base_url,
+        connector=connector,
+        proxy="http://ocytohe.univ-ubs.fr:3128"
+    ) as session:
+        # Exemple d'appel à une page (à adapter)
+        await handle_tournament_list_page(
+            session, sem, first_tournament_page="/tournaments?page=1"
+        )
 
-  async with aiohttp.ClientSession(base_url=base_url, connector=connector) as session:
-    await handle_tournament_list_page(session, sem, first_tournament_page)
-    
-asyncio.run(main())
+# Lancement du script
+if __name__ == "__main__":
+    asyncio.run(main())
