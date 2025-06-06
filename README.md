@@ -61,7 +61,8 @@ Cette Base de données PostgreSQL est rempli grace au script python du fichier *
 Enfin Pour nous connecter à la base, il a fallu créer un fichier contenant les variables d'environnement de la base.
 
 # Data-Viz
-La Data vizualisation a été réaliser sur Rstudio, elle contient 4 pages : 
+La Data vizualisation a été réaliser sur Rstudio, 2 fichier on été crées, 1 pour le traitement des données, et un autre pour la réalisation de l'application RShiny. 
+Cette dernière contient 4 pages : 
   - Accueil
   - Cartes
   - Decks
