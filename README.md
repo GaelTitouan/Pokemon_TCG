@@ -56,7 +56,7 @@ Le fichier CSV final contient les colonnes suivantes :
 # PostGreSQL
 Notre base de données PostgreSQL contient les données des fichiers générer avec les données de tournois ainsi que les données sur les caractéristiques des cartes pokémons et dresseurs.
 
-Cette Base de données PostgreSQL est rempli grace au script python du fichier **main_postgre.py** qui va chercher ce qu'il y a dans les fichier csv et les inserts dans la base. En plus, pour la création des nouvelles tables nous avons créés 2 fichiers SQL (02_create_wrk_tables_players.sql et 03_cards_new.sql), et ils sont exécutés dans le main_postgre.py.
+Cette Base de données PostgreSQL est rempli grace au script python du fichier **main_postgre.py** qui va chercher ce qu'il y a dans les fichiers json et csv et les inserts dans la base. En plus, pour la création des nouvelles tables nous avons créés 2 fichiers SQL (02_create_wrk_tables_players.sql et 03_cards_new.sql), et ils sont exécutés dans le main_postgre.py.
 
 Enfin Pour nous connecter à la base, il a fallu créer un fichier contenant les variables d'environnement de la base.
 
