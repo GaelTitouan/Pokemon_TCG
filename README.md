@@ -62,11 +62,13 @@ Enfin Pour nous connecter à la base, il a fallu créer un fichier contenant les
 
 # Data-Viz
 La Data vizualisation a été réaliser sur Rstudio, 2 fichier on été crées, 1 pour le traitement des données, et un autre pour la réalisation de l'application RShiny. 
-Cette dernière contient 4 pages : 
-  - Accueil
-  - Cartes
+Cette dernière contient 6 pages : 
+  - Home
+  - Cards
   - Decks
-  - Statistiques
+  - Extension statistics
+  - Deck Statistics
+  - Match up
 
 Nous avons décider de crée l'application en anglais, car les données des cartes sont en anglais et l'appli a plutot pour but d'être utilisée à l'international
 
